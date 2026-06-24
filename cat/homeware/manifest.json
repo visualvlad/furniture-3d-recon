@@ -17,7 +17,11 @@
       "glb_bytes": 10287424,
       "glb_mb": 10.29
     },
-    "glb": "homeware/crystallarge.glb"
+    "glb": "homeware/crystallarge.glb",
+    "inputs": [
+      "inputs/crystallarge/crystallarge_1.jpg",
+      "inputs/crystallarge/crystallarge_4.jpg"
+    ]
   },
   {
     "key": "homeware/crystalsmall",
@@ -37,7 +41,11 @@
       "glb_bytes": 11854916,
       "glb_mb": 11.85
     },
-    "glb": "homeware/crystalsmall.glb"
+    "glb": "homeware/crystalsmall.glb",
+    "inputs": [
+      "inputs/crystalsmall/crystalsmall_1.jpg",
+      "inputs/crystalsmall/crystalsmall_2.jpg"
+    ]
   },
   {
     "key": "homeware/fenestra",
@@ -57,7 +65,12 @@
       "glb_bytes": 8646144,
       "glb_mb": 8.65
     },
-    "glb": "homeware/fenestra.glb"
+    "glb": "homeware/fenestra.glb",
+    "inputs": [
+      "inputs/fenestra/fenestra_1.jpg",
+      "inputs/fenestra/fenestra_4.jpg",
+      "inputs/fenestra/fenestra_5.jpg"
+    ]
   },
   {
     "key": "homeware/pretzel",
@@ -77,7 +90,12 @@
       "glb_bytes": 10173476,
       "glb_mb": 10.17
     },
-    "glb": "homeware/pretzel.glb"
+    "glb": "homeware/pretzel.glb",
+    "inputs": [
+      "inputs/pretzel/pretzel_1.jpg",
+      "inputs/pretzel/pretzel_4.jpg",
+      "inputs/pretzel/pretzel_5.jpg"
+    ]
   },
   {
     "key": "homeware/twistvase",
@@ -97,6 +115,11 @@
       "glb_bytes": 9339404,
       "glb_mb": 9.34
     },
-    "glb": "homeware/twistvase.glb"
+    "glb": "homeware/twistvase.glb",
+    "inputs": [
+      "inputs/twistvase/twistvase_1.jpg",
+      "inputs/twistvase/twistvase_3.jpg",
+      "inputs/twistvase/twistvase_4.jpg"
+    ]
   }
 ]

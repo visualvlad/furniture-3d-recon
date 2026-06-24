@@ -17,7 +17,12 @@
       "glb_bytes": 14073684,
       "glb_mb": 14.07
     },
-    "glb": "bikes/brompton.glb"
+    "glb": "bikes/brompton.glb",
+    "inputs": [
+      "inputs/brompton/brompton_1.jpg",
+      "inputs/brompton/brompton_2.jpg",
+      "inputs/brompton/brompton_3.jpg"
+    ]
   },
   {
     "key": "bikes/brooks",
@@ -37,7 +42,15 @@
       "glb_bytes": 10371496,
       "glb_mb": 10.37
     },
-    "glb": "bikes/brooks.glb"
+    "glb": "bikes/brooks.glb",
+    "inputs": [
+      "inputs/brooks/brooks_1.jpg",
+      "inputs/brooks/brooks_2.jpg",
+      "inputs/brooks/brooks_3.jpg",
+      "inputs/brooks/brooks_4.jpg",
+      "inputs/brooks/brooks_5.jpg",
+      "inputs/brooks/brooks_6.jpg"
+    ]
   },
   {
     "key": "bikes/canyon",
@@ -57,7 +70,11 @@
       "glb_bytes": 13483072,
       "glb_mb": 13.48
     },
-    "glb": "bikes/canyon.glb"
+    "glb": "bikes/canyon.glb",
+    "inputs": [
+      "inputs/canyon/canyon_1.jpg",
+      "inputs/canyon/canyon_4.jpg"
+    ]
   },
   {
     "key": "bikes/helmet",
@@ -77,7 +94,14 @@
       "glb_bytes": 13851056,
       "glb_mb": 13.85
     },
-    "glb": "bikes/helmet.glb"
+    "glb": "bikes/helmet.glb",
+    "inputs": [
+      "inputs/helmet/helmet_1.jpg",
+      "inputs/helmet/helmet_2.jpg",
+      "inputs/helmet/helmet_3.jpg",
+      "inputs/helmet/helmet_4.jpg",
+      "inputs/helmet/helmet_5.jpg"
+    ]
   },
   {
     "key": "bikes/stateroad",
@@ -97,6 +121,11 @@
       "glb_bytes": 13477120,
       "glb_mb": 13.48
     },
-    "glb": "bikes/stateroad.glb"
+    "glb": "bikes/stateroad.glb",
+    "inputs": [
+      "inputs/stateroad/stateroad_1.jpg",
+      "inputs/stateroad/stateroad_3.jpg",
+      "inputs/stateroad/stateroad_4.jpg"
+    ]
   }
 ]

@@ -17,7 +17,12 @@
       "glb_bytes": 11985096,
       "glb_mb": 11.99
     },
-    "glb": "bags/backpack.glb"
+    "glb": "bags/backpack.glb",
+    "inputs": [
+      "inputs/backpack/backpack_1.jpg",
+      "inputs/backpack/backpack_2.jpg",
+      "inputs/backpack/backpack_5.jpg"
+    ]
   },
   {
     "key": "bags/duffel",
@@ -37,7 +42,12 @@
       "glb_bytes": 10924672,
       "glb_mb": 10.92
     },
-    "glb": "bags/duffel.glb"
+    "glb": "bags/duffel.glb",
+    "inputs": [
+      "inputs/duffel/duffel_1.jpg",
+      "inputs/duffel/duffel_3.jpg",
+      "inputs/duffel/duffel_4.jpg"
+    ]
   },
   {
     "key": "bags/pouch",
@@ -57,7 +67,12 @@
       "glb_bytes": 10673844,
       "glb_mb": 10.67
     },
-    "glb": "bags/pouch.glb"
+    "glb": "bags/pouch.glb",
+    "inputs": [
+      "inputs/pouch/pouch_1.jpg",
+      "inputs/pouch/pouch_3.jpg",
+      "inputs/pouch/pouch_4.jpg"
+    ]
   },
   {
     "key": "bags/sling",
@@ -77,7 +92,14 @@
       "glb_bytes": 11715996,
       "glb_mb": 11.72
     },
-    "glb": "bags/sling.glb"
+    "glb": "bags/sling.glb",
+    "inputs": [
+      "inputs/sling/sling_1.jpg",
+      "inputs/sling/sling_3.jpg",
+      "inputs/sling/sling_4.jpg",
+      "inputs/sling/sling_5.jpg",
+      "inputs/sling/sling_6.jpg"
+    ]
   },
   {
     "key": "bags/tote",
@@ -97,6 +119,13 @@
       "glb_bytes": 12117472,
       "glb_mb": 12.12
     },
-    "glb": "bags/tote.glb"
+    "glb": "bags/tote.glb",
+    "inputs": [
+      "inputs/tote/tote_1.jpg",
+      "inputs/tote/tote_3.jpg",
+      "inputs/tote/tote_4.jpg",
+      "inputs/tote/tote_5.jpg",
+      "inputs/tote/tote_6.jpg"
+    ]
   }
 ]

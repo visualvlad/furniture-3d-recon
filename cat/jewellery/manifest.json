@@ -17,7 +17,10 @@
       "glb_bytes": 9899852,
       "glb_mb": 9.9
     },
-    "glb": "jewellery/bluenile.glb"
+    "glb": "jewellery/bluenile.glb",
+    "inputs": [
+      "inputs/bluenile/bluenile_1.jpg"
+    ]
   },
   {
     "key": "jewellery/boldhoops",
@@ -37,7 +40,11 @@
       "glb_bytes": 9283088,
       "glb_mb": 9.28
     },
-    "glb": "jewellery/boldhoops.glb"
+    "glb": "jewellery/boldhoops.glb",
+    "inputs": [
+      "inputs/boldhoops/boldhoops_1.jpg",
+      "inputs/boldhoops/boldhoops_2.jpg"
+    ]
   },
   {
     "key": "jewellery/dwwatch",
@@ -57,7 +64,12 @@
       "glb_bytes": 11364584,
       "glb_mb": 11.36
     },
-    "glb": "jewellery/dwwatch.glb"
+    "glb": "jewellery/dwwatch.glb",
+    "inputs": [
+      "inputs/dwwatch/dwwatch_1.jpg",
+      "inputs/dwwatch/dwwatch_2.jpg",
+      "inputs/dwwatch/dwwatch_3.jpg"
+    ]
   },
   {
     "key": "jewellery/moltencuff",
@@ -77,7 +89,12 @@
       "glb_bytes": 7426636,
       "glb_mb": 7.43
     },
-    "glb": "jewellery/moltencuff.glb"
+    "glb": "jewellery/moltencuff.glb",
+    "inputs": [
+      "inputs/moltencuff/moltencuff_1.jpg",
+      "inputs/moltencuff/moltencuff_2.jpg",
+      "inputs/moltencuff/moltencuff_3.jpg"
+    ]
   },
   {
     "key": "jewellery/puffyring",
@@ -97,6 +114,11 @@
       "glb_bytes": 7600996,
       "glb_mb": 7.6
     },
-    "glb": "jewellery/puffyring.glb"
+    "glb": "jewellery/puffyring.glb",
+    "inputs": [
+      "inputs/puffyring/puffyring_1.jpg",
+      "inputs/puffyring/puffyring_4.jpg",
+      "inputs/puffyring/puffyring_5.jpg"
+    ]
   }
 ]

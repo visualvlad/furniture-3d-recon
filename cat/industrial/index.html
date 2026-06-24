@@ -50,6 +50,10 @@ footer{border-top:1px solid var(--border);margin-top:24px;padding:36px 0 80px}
 .nav a{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);text-decoration:none}
 .nav a:hover{color:var(--accent)}
 .loading{padding:60px 0;text-align:center;color:var(--muted);font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:11px}
+.inputs{border-top:1px solid var(--border);padding-top:14px}
+.inputs .lab{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:9px;color:var(--muted);margin-bottom:9px}
+.thumbs{display:flex;gap:7px;flex-wrap:wrap}
+.thumbs img{width:58px;height:58px;object-fit:contain;background:#fff;border:1px solid var(--border);border-radius:6px}
 </style>
 </head>
 <body>
@@ -70,7 +74,7 @@ footer{border-top:1px solid var(--border);margin-top:24px;padding:36px 0 80px}
 const fmt=n=>(n==null||n<0)?'—':n.toLocaleString('en-GB');
 const sec=s=>s==null?'—':(s>=60?Math.floor(s/60)+'m '+Math.round(s%60)+'s':Math.round(s)+'s');
 const CATS=['footwear','bags','homeware','soft-home','garden','bikes','industrial','jewellery'];
-function card(m,i){const t=m.stats;const idx=String(i+1).padStart(2,'0');
+function card(m,i){const t=m.stats;const idx=String(i+1).padStart(2,'0');const thumbs=(m.inputs||[]).map(p=>'<img src="'+p+'" alt="input view" loading="lazy">').join('');
  return `<div class="card"><div class="viewer-wrap"><div class="viewer-tag">${idx} / ${m.product}</div><div class="viewer-hint">Drag to rotate</div>
  <model-viewer src="models/${m.pid}.glb" camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="22deg" interaction-prompt="none"
   environment-image="../../studio.hdr" tone-mapping="neutral" exposure="1.15" shadow-intensity="1" shadow-softness="0.8"
@@ -85,7 +89,7 @@ function card(m,i){const t=m.stats;const idx=String(i+1).padStart(2,'0');
   <div class="row"><span class="l">GLB size</span><span class="r">${t.glb_mb}<small> MB</small></span></div>
   <div class="row"><span class="l">Total</span><span class="r">${sec(t.total_seconds)}</span></div>
   <div class="row"><span class="l">Peak VRAM</span><span class="r">${t.peak_vram_gb}<small> GB</small></span></div>
- </div></div></div>`;}
+ </div>${thumbs?'<div class="inputs"><div class="lab">Inputs \u00b7 '+m.views+' view'+(m.views>1?'s':'')+'</div><div class="thumbs">'+thumbs+'</div></div>':''}</div></div>`;}
 fetch('manifest.json').then(r=>r.json()).then(data=>{
  data.sort((a,b)=>a.pid.localeCompare(b.pid));
  document.getElementById('cards').innerHTML=data.map(card).join('');

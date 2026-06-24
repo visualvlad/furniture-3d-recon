@@ -17,7 +17,12 @@
       "glb_bytes": 10617504,
       "glb_mb": 10.62
     },
-    "glb": "garden/haws.glb"
+    "glb": "garden/haws.glb",
+    "inputs": [
+      "inputs/haws/haws_3.jpg",
+      "inputs/haws/haws_4.jpg",
+      "inputs/haws/haws_5.jpg"
+    ]
   },
   {
     "key": "garden/solostove",
@@ -37,7 +42,11 @@
       "glb_bytes": 10629928,
       "glb_mb": 10.63
     },
-    "glb": "garden/solostove.glb"
+    "glb": "garden/solostove.glb",
+    "inputs": [
+      "inputs/solostove/solostove_1.jpg",
+      "inputs/solostove/solostove_5.jpg"
+    ]
   },
   {
     "key": "garden/tuva",
@@ -57,6 +66,12 @@
       "glb_bytes": 10473280,
       "glb_mb": 10.47
     },
-    "glb": "garden/tuva.glb"
+    "glb": "garden/tuva.glb",
+    "inputs": [
+      "inputs/tuva/tuva_3.jpg",
+      "inputs/tuva/tuva_4.jpg",
+      "inputs/tuva/tuva_5.jpg",
+      "inputs/tuva/tuva_6.jpg"
+    ]
   }
 ]

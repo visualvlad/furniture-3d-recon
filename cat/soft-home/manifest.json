@@ -17,7 +17,15 @@
       "glb_bytes": 13702064,
       "glb_mb": 13.7
     },
-    "glb": "soft-home/olara.glb"
+    "glb": "soft-home/olara.glb",
+    "inputs": [
+      "inputs/olara/olara_1.jpg",
+      "inputs/olara/olara_2.jpg",
+      "inputs/olara/olara_3.jpg",
+      "inputs/olara/olara_4.jpg",
+      "inputs/olara/olara_5.jpg",
+      "inputs/olara/olara_6.jpg"
+    ]
   },
   {
     "key": "soft-home/petter",
@@ -37,7 +45,15 @@
       "glb_bytes": 10941328,
       "glb_mb": 10.94
     },
-    "glb": "soft-home/petter.glb"
+    "glb": "soft-home/petter.glb",
+    "inputs": [
+      "inputs/petter/petter_1.jpg",
+      "inputs/petter/petter_2.jpg",
+      "inputs/petter/petter_3.jpg",
+      "inputs/petter/petter_4.jpg",
+      "inputs/petter/petter_5.jpg",
+      "inputs/petter/petter_6.jpg"
+    ]
   },
   {
     "key": "soft-home/priya",
@@ -57,7 +73,15 @@
       "glb_bytes": 9138100,
       "glb_mb": 9.14
     },
-    "glb": "soft-home/priya.glb"
+    "glb": "soft-home/priya.glb",
+    "inputs": [
+      "inputs/priya/priya_1.jpg",
+      "inputs/priya/priya_2.jpg",
+      "inputs/priya/priya_3.jpg",
+      "inputs/priya/priya_4.jpg",
+      "inputs/priya/priya_5.jpg",
+      "inputs/priya/priya_6.jpg"
+    ]
   },
   {
     "key": "soft-home/tolkning",
@@ -77,6 +101,12 @@
       "glb_bytes": 9199756,
       "glb_mb": 9.2
     },
-    "glb": "soft-home/tolkning.glb"
+    "glb": "soft-home/tolkning.glb",
+    "inputs": [
+      "inputs/tolkning/tolkning_1.jpg",
+      "inputs/tolkning/tolkning_2.jpg",
+      "inputs/tolkning/tolkning_3.jpg",
+      "inputs/tolkning/tolkning_4.jpg"
+    ]
   }
 ]

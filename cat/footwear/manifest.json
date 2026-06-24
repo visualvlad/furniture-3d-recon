@@ -17,7 +17,13 @@
       "glb_bytes": 10026604,
       "glb_mb": 10.03
     },
-    "glb": "footwear/drmartens.glb"
+    "glb": "footwear/drmartens.glb",
+    "inputs": [
+      "inputs/drmartens/drmartens_1.jpg",
+      "inputs/drmartens/drmartens_3.jpg",
+      "inputs/drmartens/drmartens_4.jpg",
+      "inputs/drmartens/drmartens_5.jpg"
+    ]
   },
   {
     "key": "footwear/merrell",
@@ -37,7 +43,13 @@
       "glb_bytes": 13596396,
       "glb_mb": 13.6
     },
-    "glb": "footwear/merrell.glb"
+    "glb": "footwear/merrell.glb",
+    "inputs": [
+      "inputs/merrell/merrell_1.jpg",
+      "inputs/merrell/merrell_2.jpg",
+      "inputs/merrell/merrell_3.jpg",
+      "inputs/merrell/merrell_5.jpg"
+    ]
   },
   {
     "key": "footwear/nb370",
@@ -57,7 +69,13 @@
       "glb_bytes": 11800856,
       "glb_mb": 11.8
     },
-    "glb": "footwear/nb370.glb"
+    "glb": "footwear/nb370.glb",
+    "inputs": [
+      "inputs/nb370/nb370_1.jpg",
+      "inputs/nb370/nb370_2.jpg",
+      "inputs/nb370/nb370_3.jpg",
+      "inputs/nb370/nb370_5.jpg"
+    ]
   },
   {
     "key": "footwear/nikeairmax",
@@ -77,7 +95,13 @@
       "glb_bytes": 9544572,
       "glb_mb": 9.54
     },
-    "glb": "footwear/nikeairmax.glb"
+    "glb": "footwear/nikeairmax.glb",
+    "inputs": [
+      "inputs/nikeairmax/nikeairmax_1.jpg",
+      "inputs/nikeairmax/nikeairmax_2.jpg",
+      "inputs/nikeairmax/nikeairmax_3.jpg",
+      "inputs/nikeairmax/nikeairmax_5.jpg"
+    ]
   },
   {
     "key": "footwear/stansmith",
@@ -97,6 +121,12 @@
       "glb_bytes": 8561048,
       "glb_mb": 8.56
     },
-    "glb": "footwear/stansmith.glb"
+    "glb": "footwear/stansmith.glb",
+    "inputs": [
+      "inputs/stansmith/stansmith_1.jpg",
+      "inputs/stansmith/stansmith_3.jpg",
+      "inputs/stansmith/stansmith_4.jpg",
+      "inputs/stansmith/stansmith_5.jpg"
+    ]
   }
 ]
