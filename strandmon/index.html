@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Progressive quality test · STRANDMON wing chair · ReconViaGen × TRELLIS.2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Montserrat:wght@400;500;600;700&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/@google/model-viewer@4.0.0/dist/model-viewer.min.js"></script>
+<style>
+:root{
+  --bg:#eaeae0; --white:#f4f4ec; --border:#d0d0c8; --border-dark:#a8a8a0;
+  --text:#0a0a08; --muted:#64645c; --pill:#dcdcd4;
+  --accent:#FB5E01; --accent-grad:linear-gradient(135deg,#F0280D 0%,#FB5E01 100%);
+  --magma-grad:linear-gradient(135deg,#F00D33 0%,#FB5E01 50%,#F4B71D 100%);
+  --grid-dot:rgba(0,0,0,0.045);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.6;position:relative;-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(circle,var(--grid-dot) 1px,transparent 1px);background-size:28px 28px;pointer-events:none;z-index:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.display{font-family:'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;line-height:.97}
+.mono{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em}
+em{font-style:normal;color:var(--muted)}
+a.back{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);text-decoration:none;display:inline-block;margin-top:30px}
+a.back:hover{color:var(--accent)}
+
+header{padding:84px 0 32px}
+.eyebrow{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.11em;font-size:11px;color:var(--accent);margin-bottom:22px}
+h1.display{font-size:clamp(38px,6vw,68px);font-weight:500;max-width:16ch;margin-bottom:26px}
+.lede{font-size:15px;line-height:1.65;max-width:64ch;color:#1a1a16}
+.lede a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(251,94,1,.35)}
+
+/* input strip */
+.input-strip{display:flex;align-items:center;gap:22px;flex-wrap:wrap;background:var(--white);border:1px solid var(--border);border-radius:14px;padding:18px 22px;margin:36px 0 8px}
+.input-strip .lab{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);line-height:1.7}
+.input-strip .lab b{display:block;color:var(--text);font-weight:400;font-size:12px}
+.input-strip .lab a{color:var(--accent);text-decoration:none}
+.input-strip .ph{display:flex;gap:10px;margin-left:auto}
+.input-strip .ph img{width:104px;height:104px;object-fit:contain;background:#fff;border:1px solid var(--border);border-radius:8px}
+
+.summary{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin:16px 0 8px;background:var(--white)}
+.summary .cell{flex:1 1 0;min-width:140px;padding:20px 22px;border-right:1px solid var(--border)}
+.summary .cell:last-child{border-right:none}
+.summary .k{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);margin-bottom:8px}
+.summary .v{font-family:'Bricolage Grotesque',sans-serif;font-size:30px;font-weight:500;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.summary .v small{font-size:.5em;color:var(--muted);font-weight:400;margin-left:3px}
+
+#cards{padding:24px 0 40px;display:flex;flex-direction:column;gap:28px}
+.card{background:var(--white);border:1px solid var(--border);border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1.15fr 1fr}
+@media(max-width:820px){.card{grid-template-columns:1fr}}
+.viewer-wrap{position:relative;background:#ffffff;min-height:440px;border-right:1px solid var(--border)}
+@media(max-width:820px){.viewer-wrap{border-right:none;border-bottom:1px solid var(--border)}}
+model-viewer{width:100%;height:100%;min-height:440px;--poster-color:#ffffff;background:#ffffff}
+.viewer-tag{position:absolute;top:14px;left:14px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:#0a0a08;background:rgba(255,255,255,.72);border:1px solid var(--border);padding:5px 10px;border-radius:3px;backdrop-filter:blur(6px)}
+.viewer-hint{position:absolute;bottom:12px;left:14px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:9px;color:var(--muted)}
+.panel{padding:26px 28px;display:flex;flex-direction:column;gap:18px}
+.badge{align-self:flex-start;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:9.5px;color:#fff;background:var(--accent-grad);padding:5px 11px;border-radius:3px}
+.ptitle{font-family:'Montserrat';font-size:21px;font-weight:600;letter-spacing:-.015em;line-height:1.18}
+.blurb{font-size:12.5px;color:#33332c;line-height:1.55}
+.rows{display:grid;grid-template-columns:1fr 1fr;gap:18px 26px;border-top:1px solid var(--border);padding-top:18px}
+.col h4{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:9.5px;color:var(--accent);margin-bottom:10px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:3px 0;font-size:12px}
+.row .l{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.05em;font-size:10px;color:var(--muted)}
+.row .r{font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.row .r small{color:var(--muted);font-weight:400;margin-left:2px}
+
+footer{border-top:1px solid var(--border);margin-top:24px;padding:40px 0 80px}
+.foot{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);line-height:2}
+.loading{padding:60px 0;text-align:center;color:var(--muted);font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:11px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Progressive quality test · STRANDMON wing chair</div>
+    <h1 class="display">One chair, <em>five quality tiers.</em></h1>
+    <p class="lede">A controlled sweep. The same two reference photos go into our deployed image-to-3D model (ReconViaGen × TRELLIS.2) five times, with nothing changing but the settings, which climb from a 512 draft to a fully maxed 1536 cascade. Rotate each result and watch both the fidelity and the cost rise tier by tier.</p>
+
+    <div class="input-strip">
+      <div class="lab">The input · 2 reference views<b>STRANDMON wing chair</b><a href="https://www.ikea.com/us/en/p/strandmon-wing-chair-nordvalla-dark-gray-90359829/" target="_blank" rel="noopener">IKEA · view listing ↗</a></div>
+      <div class="ph"><img src="inputs/chair_1.jpg" alt="front view"><img src="inputs/chair_7.jpg" alt="back view"></div>
+    </div>
+
+    <div class="summary" id="summary"></div>
+  </header>
+
+  <main id="cards"><div class="loading">Loading tiers…</div></main>
+
+  <footer>
+    <div class="foot" id="foot">
+      Same 2 inputs, settings only · ReconViaGen × TRELLIS.2 (v0.5) · one NVIDIA H100<br>
+      Drag to rotate, scroll to zoom
+    </div>
+    <a class="back" href="../">← back to the 5-product test</a>
+  </footer>
+</div>
+
+<script>
+const fmt = n => (n==null||n<0) ? '—' : n.toLocaleString('en-GB');
+const sec = s => s==null ? '—' : (s>=60 ? Math.floor(s/60)+'m '+Math.round(s%60)+'s' : Math.round(s)+'s');
+
+function card(m){
+  const s=m.settings, t=m.stats;
+  const idx=String(m.tier).padStart(2,'0');
+  return `
+  <div class="card">
+    <div class="viewer-wrap">
+      <div class="viewer-tag">Tier ${idx} / ${m.label}</div>
+      <div class="viewer-hint">Drag to rotate</div>
+      <model-viewer src="models/${m.glb}" camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="22deg"
+        interaction-prompt="none" environment-image="../studio.hdr" tone-mapping="commerce" exposure="1.0"
+        shadow-intensity="1" shadow-softness="0.8"
+        camera-orbit="25deg 72deg 105%" camera-target="auto" loading="lazy" reveal="auto"></model-viewer>
+    </div>
+    <div class="panel">
+      <div class="badge">Tier ${m.tier} · ${m.label}</div>
+      <div class="ptitle">${m.label} quality</div>
+      <div class="blurb">${m.blurb}</div>
+      <div class="rows">
+        <div class="col">
+          <h4>Settings</h4>
+          <div class="row"><span class="l">Resolution</span><span class="r">${s.pipeline_type}</span></div>
+          <div class="row"><span class="l">Steps / stage</span><span class="r">${s.sampling_steps}</span></div>
+          <div class="row"><span class="l">Guidance</span><span class="r">${s.guidance}</span></div>
+          <div class="row"><span class="l">Decimation</span><span class="r">${fmt(s.decimation_target)}<small> tris</small></span></div>
+          <div class="row"><span class="l">Texture</span><span class="r">${s.texture_size}²</span></div>
+        </div>
+        <div class="col">
+          <h4>Result</h4>
+          <div class="row"><span class="l">Generate</span><span class="r">${sec(t.gen_seconds)}</span></div>
+          <div class="row"><span class="l">Extract GLB</span><span class="r">${sec(t.extract_seconds)}</span></div>
+          <div class="row"><span class="l">Total</span><span class="r">${sec(t.total_seconds)}</span></div>
+          <div class="row"><span class="l">Peak VRAM</span><span class="r">${t.peak_vram_gb}<small> GB</small></span></div>
+          <div class="row"><span class="l">Triangles</span><span class="r">${fmt(t.triangles)}</span></div>
+          <div class="row"><span class="l">GLB size</span><span class="r">${t.glb_mb}<small> MB</small></span></div>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+fetch('manifest.json').then(r=>r.json()).then(data=>{
+  data.sort((a,b)=>a.tier-b.tier);
+  document.getElementById('cards').innerHTML = data.map(card).join('');
+  const totT=data.reduce((s,m)=>s+(m.stats.total_seconds||0),0);
+  const tmin=Math.min(...data.map(m=>m.stats.total_seconds)), tmax=Math.max(...data.map(m=>m.stats.total_seconds));
+  const trMin=Math.min(...data.map(m=>m.stats.triangles)), trMax=Math.max(...data.map(m=>m.stats.triangles));
+  document.getElementById('summary').innerHTML=`
+    <div class="cell"><div class="k">Tiers</div><div class="v">${data.length}</div></div>
+    <div class="cell"><div class="k">Resolution</div><div class="v" style="font-size:20px">512 → 1536</div></div>
+    <div class="cell"><div class="k">Time / model</div><div class="v">${sec(tmin)}<small>→</small>${sec(tmax)}</div></div>
+    <div class="cell"><div class="k">Triangles</div><div class="v" style="font-size:22px">${(trMin/1000).toFixed(0)}k<small>→</small>${(trMax/1000).toFixed(0)}k</div></div>
+    <div class="cell"><div class="k">Total compute</div><div class="v">${Math.round(totT/60)}<small>min</small></div></div>`;
+}).catch(e=>{document.getElementById('cards').innerHTML='<div class="loading">Could not load manifest.json — '+e+'</div>';});
+</script>
+</body>
+</html>
