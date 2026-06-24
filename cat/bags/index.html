@@ -90,7 +90,7 @@ function card(m,i){const t=m.stats;const idx=String(i+1).padStart(2,'0');const t
   <div class="row"><span class="l">Total</span><span class="r">${sec(t.total_seconds)}</span></div>
   <div class="row"><span class="l">Peak VRAM</span><span class="r">${t.peak_vram_gb}<small> GB</small></span></div>
  </div>${thumbs?'<div class="inputs"><div class="lab">Inputs \u00b7 '+m.views+' view'+(m.views>1?'s':'')+'</div><div class="thumbs">'+thumbs+'</div></div>':''}</div></div>`;}
-fetch('manifest.json').then(r=>r.json()).then(data=>{
+fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(data=>{
  data.sort((a,b)=>a.pid.localeCompare(b.pid));
  document.getElementById('cards').innerHTML=data.map(card).join('');
  const tot=data.reduce((s,m)=>s+(m.stats.total_seconds||0),0);
