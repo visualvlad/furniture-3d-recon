@@ -1,0 +1,181 @@
+[
+  {
+    "key": "lamp",
+    "product": "Pilar Floor Lamp (white terrazzo)",
+    "brand": "Article",
+    "url": "https://www.article.com/product/25289/pilar-floor-lamp-white-terrazzo",
+    "label": "Fast preview",
+    "blurb": "Lowest resolution + fewest steps. 1 input view (symmetric object).",
+    "views": 1,
+    "settings": {
+      "pipeline_type": "512",
+      "sampling_steps": 6,
+      "ss_guidance": 7.5,
+      "shape_guidance": 7.5,
+      "decimation_target": 150000,
+      "texture_size": 1024,
+      "strategy": "adaptive_guidance_weight",
+      "ss_source": "mesh",
+      "seed": 0
+    },
+    "stats": {
+      "gen_seconds": 39.2,
+      "extract_seconds": 10.7,
+      "total_seconds": 49.8,
+      "peak_vram_gb": 15.9,
+      "vertices": 82638,
+      "triangles": 144414,
+      "glb_bytes": 4461344,
+      "glb_mb": 4.46
+    },
+    "glb": "lamp.glb",
+    "inputs": [
+      "inputs/lamp/lamp_3.jpg"
+    ]
+  },
+  {
+    "key": "chair",
+    "product": "STRANDMON Wing Chair",
+    "brand": "IKEA",
+    "url": "https://www.ikea.com/us/en/p/strandmon-wing-chair-nordvalla-dark-gray-90359829/",
+    "label": "High guidance (sparse views)",
+    "blurb": "Only 2 views (front + back); guidance pushed to 9.0 to fill the unseen sides.",
+    "views": 2,
+    "settings": {
+      "pipeline_type": "1024_cascade",
+      "sampling_steps": 15,
+      "ss_guidance": 9.0,
+      "shape_guidance": 9.0,
+      "decimation_target": 500000,
+      "texture_size": 2048,
+      "strategy": "adaptive_guidance_weight",
+      "ss_source": "mesh",
+      "seed": 0
+    },
+    "stats": {
+      "gen_seconds": 48.8,
+      "extract_seconds": 41.9,
+      "total_seconds": 90.6,
+      "peak_vram_gb": 17.4,
+      "vertices": 336793,
+      "triangles": 497145,
+      "glb_bytes": 17616804,
+      "glb_mb": 17.62
+    },
+    "glb": "chair.glb",
+    "inputs": [
+      "inputs/chair/chair_1.jpg",
+      "inputs/chair/chair_7.jpg"
+    ]
+  },
+  {
+    "key": "table",
+    "product": "Adel 42\" Round Coffee Table (white oak)",
+    "brand": "Article",
+    "url": "https://www.article.com/product/25789/adel-42-round-coffee-table-white-oak",
+    "label": "Balanced (default)",
+    "blurb": "Stock settings: 1024 cascade, 12 steps per stage, 2K texture.",
+    "views": 4,
+    "settings": {
+      "pipeline_type": "1024_cascade",
+      "sampling_steps": 12,
+      "ss_guidance": 7.5,
+      "shape_guidance": 7.5,
+      "decimation_target": 500000,
+      "texture_size": 2048,
+      "strategy": "adaptive_guidance_weight",
+      "ss_source": "mesh",
+      "seed": 0
+    },
+    "stats": {
+      "gen_seconds": 46.8,
+      "extract_seconds": 73.5,
+      "total_seconds": 120.3,
+      "peak_vram_gb": 17.6,
+      "vertices": 287286,
+      "triangles": 463878,
+      "glb_bytes": 15237324,
+      "glb_mb": 15.24
+    },
+    "glb": "table.glb",
+    "inputs": [
+      "inputs/table/table_4.jpg",
+      "inputs/table/table_5.jpg",
+      "inputs/table/table_6.jpg",
+      "inputs/table/table_7.jpg"
+    ]
+  },
+  {
+    "key": "sofa",
+    "product": "Sven 88\" Tufted Sofa (stone gray)",
+    "brand": "Article",
+    "url": "https://www.article.com/product/27056/sven-88-tufted-sofa-stone-gray",
+    "label": "High fidelity",
+    "blurb": "Highest resolution (1536 cascade), 20 steps per stage, 4K texture.",
+    "views": 4,
+    "settings": {
+      "pipeline_type": "1536_cascade",
+      "sampling_steps": 20,
+      "ss_guidance": 7.5,
+      "shape_guidance": 7.5,
+      "decimation_target": 1000000,
+      "texture_size": 4096,
+      "strategy": "adaptive_guidance_weight",
+      "ss_source": "mesh",
+      "seed": 0
+    },
+    "stats": {
+      "gen_seconds": 252.2,
+      "extract_seconds": 150.8,
+      "total_seconds": 403.0,
+      "peak_vram_gb": 25.7,
+      "vertices": 717346,
+      "triangles": 969644,
+      "glb_bytes": 39065728,
+      "glb_mb": 39.07
+    },
+    "glb": "sofa.glb",
+    "inputs": [
+      "inputs/sofa/sofa_1.jpg",
+      "inputs/sofa/sofa_3.jpg",
+      "inputs/sofa/sofa_4.jpg",
+      "inputs/sofa/sofa_5.jpg"
+    ]
+  },
+  {
+    "key": "sideboard",
+    "product": "Seno 71\" Walnut Sideboard",
+    "brand": "Article",
+    "url": "https://www.article.com/product/22359/seno-71-sideboard-walnut",
+    "label": "Lean / web-optimised",
+    "blurb": "Aggressive decimation (120k tris) + 1K texture for the smallest shippable GLB.",
+    "views": 3,
+    "settings": {
+      "pipeline_type": "1024",
+      "sampling_steps": 10,
+      "ss_guidance": 7.5,
+      "shape_guidance": 7.5,
+      "decimation_target": 120000,
+      "texture_size": 1024,
+      "strategy": "adaptive_guidance_weight",
+      "ss_source": "mesh",
+      "seed": 0
+    },
+    "stats": {
+      "gen_seconds": 23.2,
+      "extract_seconds": 18.1,
+      "total_seconds": 41.3,
+      "peak_vram_gb": 19.2,
+      "vertices": 78094,
+      "triangles": 119137,
+      "glb_bytes": 4202108,
+      "glb_mb": 4.2
+    },
+    "glb": "sideboard.glb",
+    "inputs": [
+      "inputs/sideboard/sideboard_3.jpg",
+      "inputs/sideboard/sideboard_4.jpg",
+      "inputs/sideboard/sideboard_6.jpg"
+    ]
+  }
+]
