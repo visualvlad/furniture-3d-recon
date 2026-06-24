@@ -1,0 +1,62 @@
+[
+  {
+    "key": "garden/haws",
+    "category": "garden",
+    "pid": "haws",
+    "product": "Haws Watering Can",
+    "brand": "Haws / Lee Valley",
+    "url": "https://www.leevalley.com/en-us/shop/garden/water-and-irrigation/watering-cans/10410-haws-metal-watering-can",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 105.4,
+      "extract_seconds": 36.9,
+      "total_seconds": 142.4,
+      "peak_vram_gb": 18.0,
+      "vertices": 131167,
+      "triangles": 199626,
+      "glb_bytes": 10617504,
+      "glb_mb": 10.62
+    },
+    "glb": "garden/haws.glb"
+  },
+  {
+    "key": "garden/solostove",
+    "category": "garden",
+    "pid": "solostove",
+    "product": "Solo Stove Bonfire 2.0",
+    "brand": "Solo Stove",
+    "url": "https://usfireplacestore.com/products/solo-stove-bonfire-2-0",
+    "views": 2,
+    "stats": {
+      "gen_seconds": 128.1,
+      "extract_seconds": 38.8,
+      "total_seconds": 166.9,
+      "peak_vram_gb": 17.0,
+      "vertices": 165894,
+      "triangles": 198759,
+      "glb_bytes": 10629928,
+      "glb_mb": 10.63
+    },
+    "glb": "garden/solostove.glb"
+  },
+  {
+    "key": "garden/tuva",
+    "category": "garden",
+    "pid": "tuva",
+    "product": "Tuva Terrazzo Planter",
+    "brand": "Article",
+    "url": "https://www.article.com/product/13640/tuva-indoor-outdoor-wide-planter-white-terrazzo",
+    "views": 4,
+    "stats": {
+      "gen_seconds": 544.0,
+      "extract_seconds": 53.9,
+      "total_seconds": 597.8,
+      "peak_vram_gb": 22.8,
+      "vertices": 168685,
+      "triangles": 184834,
+      "glb_bytes": 10473280,
+      "glb_mb": 10.47
+    },
+    "glb": "garden/tuva.glb"
+  }
+]

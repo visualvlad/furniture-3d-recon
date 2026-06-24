@@ -1,0 +1,102 @@
+[
+  {
+    "key": "jewellery/bluenile",
+    "category": "jewellery",
+    "pid": "bluenile",
+    "product": "Emerald-Cut Diamond Pendant",
+    "brand": "Blue Nile",
+    "url": "https://www.bluenile.com",
+    "views": 1,
+    "stats": {
+      "gen_seconds": 25.2,
+      "extract_seconds": 39.3,
+      "total_seconds": 64.5,
+      "peak_vram_gb": 16.4,
+      "vertices": 149716,
+      "triangles": 193029,
+      "glb_bytes": 9899852,
+      "glb_mb": 9.9
+    },
+    "glb": "jewellery/bluenile.glb"
+  },
+  {
+    "key": "jewellery/boldhoops",
+    "category": "jewellery",
+    "pid": "boldhoops",
+    "product": "Charlotte Bold Hoops",
+    "brand": "Mejuri",
+    "url": "https://mejuri.com/products/charlotte-bold-hoops",
+    "views": 2,
+    "stats": {
+      "gen_seconds": 216.1,
+      "extract_seconds": 53.7,
+      "total_seconds": 269.8,
+      "peak_vram_gb": 17.1,
+      "vertices": 130245,
+      "triangles": 197290,
+      "glb_bytes": 9283088,
+      "glb_mb": 9.28
+    },
+    "glb": "jewellery/boldhoops.glb"
+  },
+  {
+    "key": "jewellery/dwwatch",
+    "category": "jewellery",
+    "pid": "dwwatch",
+    "product": "Iconic Chronograph Watch",
+    "brand": "Daniel Wellington",
+    "url": "https://us.danielwellington.com/products/iconic-chronograph-link-onyx-silver",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 157.6,
+      "extract_seconds": 57.6,
+      "total_seconds": 215.3,
+      "peak_vram_gb": 18.1,
+      "vertices": 155174,
+      "triangles": 198023,
+      "glb_bytes": 11364584,
+      "glb_mb": 11.36
+    },
+    "glb": "jewellery/dwwatch.glb"
+  },
+  {
+    "key": "jewellery/moltencuff",
+    "category": "jewellery",
+    "pid": "moltencuff",
+    "product": "Molten Cuff Bracelet",
+    "brand": "Missoma",
+    "url": "https://www.missoma.com/products/molten-cuff-bracelet-18ct-gold-plated",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 47.1,
+      "extract_seconds": 54.4,
+      "total_seconds": 101.5,
+      "peak_vram_gb": 17.1,
+      "vertices": 122436,
+      "triangles": 185828,
+      "glb_bytes": 7426636,
+      "glb_mb": 7.43
+    },
+    "glb": "jewellery/moltencuff.glb"
+  },
+  {
+    "key": "jewellery/puffyring",
+    "category": "jewellery",
+    "pid": "puffyring",
+    "product": "Puffy Charlotte Ring",
+    "brand": "Mejuri",
+    "url": "https://mejuri.com/products/puffy-charlotte-ring",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 228.8,
+      "extract_seconds": 42.4,
+      "total_seconds": 271.1,
+      "peak_vram_gb": 17.3,
+      "vertices": 118497,
+      "triangles": 187052,
+      "glb_bytes": 7600996,
+      "glb_mb": 7.6
+    },
+    "glb": "jewellery/puffyring.glb"
+  }
+]

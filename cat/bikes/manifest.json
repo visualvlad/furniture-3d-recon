@@ -1,0 +1,102 @@
+[
+  {
+    "key": "bikes/brompton",
+    "category": "bikes",
+    "pid": "brompton",
+    "product": "Brompton C Line Explore",
+    "brand": "Brompton",
+    "url": "https://us.brompton.com/p/1239/c-line-explore-6-speed-cherry-blossom",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 76.9,
+      "extract_seconds": 39.0,
+      "total_seconds": 115.8,
+      "peak_vram_gb": 17.2,
+      "vertices": 192313,
+      "triangles": 199887,
+      "glb_bytes": 14073684,
+      "glb_mb": 14.07
+    },
+    "glb": "bikes/brompton.glb"
+  },
+  {
+    "key": "bikes/brooks",
+    "category": "bikes",
+    "pid": "brooks",
+    "product": "Brooks B17 Saddle",
+    "brand": "Brooks England",
+    "url": "https://www.brooksengland.com/en_us/b17.html",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 155.6,
+      "extract_seconds": 65.1,
+      "total_seconds": 220.7,
+      "peak_vram_gb": 17.5,
+      "vertices": 161272,
+      "triangles": 191421,
+      "glb_bytes": 10371496,
+      "glb_mb": 10.37
+    },
+    "glb": "bikes/brooks.glb"
+  },
+  {
+    "key": "bikes/canyon",
+    "category": "bikes",
+    "pid": "canyon",
+    "product": "Canyon Endurace AllRoad 5",
+    "brand": "Canyon",
+    "url": "https://www.canyon.com/en-us/road-bikes/endurance-bikes/endurace/allroad/endurace-allroad/4164.html",
+    "views": 2,
+    "stats": {
+      "gen_seconds": 59.5,
+      "extract_seconds": 46.4,
+      "total_seconds": 105.9,
+      "peak_vram_gb": 16.2,
+      "vertices": 192878,
+      "triangles": 194615,
+      "glb_bytes": 13483072,
+      "glb_mb": 13.48
+    },
+    "glb": "bikes/canyon.glb"
+  },
+  {
+    "key": "bikes/helmet",
+    "category": "bikes",
+    "pid": "helmet",
+    "product": "Thousand Chapter MIPS Helmet",
+    "brand": "Thousand",
+    "url": "https://www.explorethousand.com/products/mips-helmet",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 717.0,
+      "extract_seconds": 73.3,
+      "total_seconds": 790.3,
+      "peak_vram_gb": 29.3,
+      "vertices": 192731,
+      "triangles": 196005,
+      "glb_bytes": 13851056,
+      "glb_mb": 13.85
+    },
+    "glb": "bikes/helmet.glb"
+  },
+  {
+    "key": "bikes/stateroad",
+    "category": "bikes",
+    "pid": "stateroad",
+    "product": "State 4130 All-Road",
+    "brand": "State Bicycle Co.",
+    "url": "https://www.statebicycle.com/collections/4130-all-road",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 77.4,
+      "extract_seconds": 53.6,
+      "total_seconds": 131.0,
+      "peak_vram_gb": 19.3,
+      "vertices": 206055,
+      "triangles": 189930,
+      "glb_bytes": 13477120,
+      "glb_mb": 13.48
+    },
+    "glb": "bikes/stateroad.glb"
+  }
+]

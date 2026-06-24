@@ -1,0 +1,102 @@
+[
+  {
+    "key": "bags/backpack",
+    "category": "bags",
+    "pid": "backpack",
+    "product": "Everyday Backpack 20L",
+    "brand": "Peak Design",
+    "url": "https://www.peakdesign.com/products/everyday-backpack",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 362.4,
+      "extract_seconds": 66.9,
+      "total_seconds": 429.3,
+      "peak_vram_gb": 20.7,
+      "vertices": 174072,
+      "triangles": 192496,
+      "glb_bytes": 11985096,
+      "glb_mb": 11.99
+    },
+    "glb": "bags/backpack.glb"
+  },
+  {
+    "key": "bags/duffel",
+    "category": "bags",
+    "pid": "duffel",
+    "product": "Travel Duffel 35L",
+    "brand": "Peak Design",
+    "url": "https://www.peakdesign.com/products/travel-duffel",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 345.6,
+      "extract_seconds": 64.2,
+      "total_seconds": 409.7,
+      "peak_vram_gb": 25.0,
+      "vertices": 182387,
+      "triangles": 190265,
+      "glb_bytes": 10924672,
+      "glb_mb": 10.92
+    },
+    "glb": "bags/duffel.glb"
+  },
+  {
+    "key": "bags/pouch",
+    "category": "bags",
+    "pid": "pouch",
+    "product": "Field Pouch",
+    "brand": "Peak Design",
+    "url": "https://www.peakdesign.com/products/field-pouch",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 332.5,
+      "extract_seconds": 66.8,
+      "total_seconds": 399.3,
+      "peak_vram_gb": 22.1,
+      "vertices": 173226,
+      "triangles": 193977,
+      "glb_bytes": 10673844,
+      "glb_mb": 10.67
+    },
+    "glb": "bags/pouch.glb"
+  },
+  {
+    "key": "bags/sling",
+    "category": "bags",
+    "pid": "sling",
+    "product": "Everyday Sling 3L",
+    "brand": "Peak Design",
+    "url": "https://www.peakdesign.com/products/everyday-sling",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 267.4,
+      "extract_seconds": 52.9,
+      "total_seconds": 320.3,
+      "peak_vram_gb": 19.8,
+      "vertices": 170680,
+      "triangles": 197385,
+      "glb_bytes": 11715996,
+      "glb_mb": 11.72
+    },
+    "glb": "bags/sling.glb"
+  },
+  {
+    "key": "bags/tote",
+    "category": "bags",
+    "pid": "tote",
+    "product": "Everyday Tote 15L",
+    "brand": "Peak Design",
+    "url": "https://www.peakdesign.com/products/everyday-tote",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 181.6,
+      "extract_seconds": 58.4,
+      "total_seconds": 240.0,
+      "peak_vram_gb": 18.5,
+      "vertices": 188834,
+      "triangles": 196789,
+      "glb_bytes": 12117472,
+      "glb_mb": 12.12
+    },
+    "glb": "bags/tote.glb"
+  }
+]

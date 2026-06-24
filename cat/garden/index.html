@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garden · cross-category recon · ReconViaGen × TRELLIS.2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Montserrat:wght@400;500;600;700&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/@google/model-viewer@4.0.0/dist/model-viewer.min.js"></script>
+<style>
+:root{--bg:#eaeae0;--white:#f4f4ec;--border:#d0d0c8;--text:#0a0a08;--muted:#64645c;--accent:#FB5E01;--accent-grad:linear-gradient(135deg,#F0280D 0%,#FB5E01 100%);--grid-dot:rgba(0,0,0,0.045)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.6;position:relative;-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(circle,var(--grid-dot) 1px,transparent 1px);background-size:28px 28px;pointer-events:none;z-index:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.display{font-family:'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;line-height:.97}
+em{font-style:normal;color:var(--muted)}
+header{padding:80px 0 28px}
+.eyebrow{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.11em;font-size:11px;color:var(--accent);margin-bottom:20px}
+h1.display{font-size:clamp(38px,6vw,64px);font-weight:500;margin-bottom:22px;text-transform:capitalize}
+.lede{font-size:15px;line-height:1.65;max-width:64ch;color:#1a1a16}
+.lede a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(251,94,1,.35)}
+.preset{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin:30px 0 8px;background:var(--white)}
+.preset .cell{flex:1 1 0;min-width:120px;padding:16px 18px;border-right:1px solid var(--border)}
+.preset .cell:last-child{border-right:none}
+.preset .k{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:9.5px;color:var(--muted);margin-bottom:6px}
+.preset .v{font-family:'Bricolage Grotesque',sans-serif;font-size:21px;font-weight:500;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+#cards{padding:24px 0 40px;display:flex;flex-direction:column;gap:26px}
+.card{background:var(--white);border:1px solid var(--border);border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1.15fr 1fr}
+@media(max-width:820px){.card{grid-template-columns:1fr}}
+.viewer-wrap{position:relative;background:#ffffff;min-height:430px;border-right:1px solid var(--border)}
+@media(max-width:820px){.viewer-wrap{border-right:none;border-bottom:1px solid var(--border)}}
+model-viewer{width:100%;height:100%;min-height:430px;--poster-color:#ffffff;background:#ffffff}
+.viewer-tag{position:absolute;top:14px;left:14px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:#0a0a08;background:rgba(255,255,255,.72);border:1px solid var(--border);padding:5px 10px;border-radius:3px;backdrop-filter:blur(6px)}
+.viewer-hint{position:absolute;bottom:12px;left:14px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:9px;color:var(--muted)}
+.panel{padding:24px 26px;display:flex;flex-direction:column;gap:14px}
+.ptitle{font-family:'Montserrat';font-size:20px;font-weight:600;letter-spacing:-.015em;line-height:1.18}
+.psource{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:10px;color:var(--muted)}
+.psource a{color:var(--accent);text-decoration:none}
+.rows{display:grid;grid-template-columns:1fr 1fr;gap:6px 26px;border-top:1px solid var(--border);padding-top:16px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:3px 0;font-size:12px}
+.row .l{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.05em;font-size:10px;color:var(--muted)}
+.row .r{font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.row .r small{color:var(--muted);font-weight:400;margin-left:2px}
+.viewbadge{align-self:flex-start;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:9px;color:#fff;background:var(--accent-grad);padding:4px 9px;border-radius:3px}
+footer{border-top:1px solid var(--border);margin-top:24px;padding:36px 0 80px}
+.foot{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);line-height:2}
+.nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px}
+.nav a{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);text-decoration:none}
+.nav a:hover{color:var(--accent)}
+.loading{padding:60px 0;text-align:center;color:var(--muted);font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:11px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Cross-category recon · ReconViaGen × TRELLIS.2</div>
+    <h1 class="display">Garden</h1>
+    <p class="lede">Real product photos run through our deployed image-to-3D model at a single fixed preset — <em>maximum quality, decimated to a lean 200k triangles.</em> Same settings on every object; only the product changes. Drag to rotate. <a href="../">← all categories</a></p>
+    <div class="preset" id="preset"></div>
+  </header>
+  <main id="cards"><div class="loading">Loading models…</div></main>
+  <footer>
+    <div class="foot">Fixed preset: 1536 cascade · 30 steps/stage · guidance 9 · 4K texture · 200k tris · one NVIDIA H100</div>
+    <div class="nav" id="nav"></div>
+  </footer>
+</div>
+<script>
+const fmt=n=>(n==null||n<0)?'—':n.toLocaleString('en-GB');
+const sec=s=>s==null?'—':(s>=60?Math.floor(s/60)+'m '+Math.round(s%60)+'s':Math.round(s)+'s');
+const CATS=['footwear','bags','homeware','soft-home','garden','bikes','industrial','jewellery'];
+function card(m,i){const t=m.stats;const idx=String(i+1).padStart(2,'0');
+ return `<div class="card"><div class="viewer-wrap"><div class="viewer-tag">${idx} / ${m.product}</div><div class="viewer-hint">Drag to rotate</div>
+ <model-viewer src="models/${m.pid}.glb" camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="22deg" interaction-prompt="none"
+  environment-image="../studio.hdr" tone-mapping="neutral" exposure="1.15" shadow-intensity="1" shadow-softness="0.8"
+  camera-orbit="25deg 72deg 105%" camera-target="auto" loading="lazy" reveal="auto"></model-viewer></div>
+ <div class="panel"><div class="viewbadge">${m.views} view${m.views>1?'s':''} in</div>
+ <div class="ptitle">${m.product}</div>
+ <div class="psource">${m.brand}${m.url?' · <a href="'+m.url+'" target="_blank" rel="noopener">source ↗</a>':''}</div>
+ <div class="rows">
+  <div class="row"><span class="l">Generate</span><span class="r">${sec(t.gen_seconds)}</span></div>
+  <div class="row"><span class="l">Triangles</span><span class="r">${fmt(t.triangles)}</span></div>
+  <div class="row"><span class="l">Extract</span><span class="r">${sec(t.extract_seconds)}</span></div>
+  <div class="row"><span class="l">GLB size</span><span class="r">${t.glb_mb}<small> MB</small></span></div>
+  <div class="row"><span class="l">Total</span><span class="r">${sec(t.total_seconds)}</span></div>
+  <div class="row"><span class="l">Peak VRAM</span><span class="r">${t.peak_vram_gb}<small> GB</small></span></div>
+ </div></div></div>`;}
+fetch('manifest.json').then(r=>r.json()).then(data=>{
+ data.sort((a,b)=>a.pid.localeCompare(b.pid));
+ document.getElementById('cards').innerHTML=data.map(card).join('');
+ const tot=data.reduce((s,m)=>s+(m.stats.total_seconds||0),0);
+ const sz=data.reduce((s,m)=>s+(m.stats.glb_mb||0),0);
+ document.getElementById('preset').innerHTML=`
+  <div class="cell"><div class="k">Products</div><div class="v">${data.length}</div></div>
+  <div class="cell"><div class="k">Preset</div><div class="v" style="font-size:15px">Max / 200k</div></div>
+  <div class="cell"><div class="k">Avg time</div><div class="v">${sec(tot/data.length)}</div></div>
+  <div class="cell"><div class="k">Total GLB</div><div class="v">${sz.toFixed(0)}<small>MB</small></div></div>`;
+ document.getElementById('nav').innerHTML=CATS.map(c=>`<a href="../${c}/">${c}</a>`).join('')+' · <a href="../">index</a>';
+}).catch(e=>{document.getElementById('cards').innerHTML='<div class="loading">manifest.json error — '+e+'</div>';});
+</script>
+</body>
+</html>

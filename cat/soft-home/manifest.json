@@ -1,0 +1,82 @@
+[
+  {
+    "key": "soft-home/olara",
+    "category": "soft-home",
+    "pid": "olara",
+    "product": "Olara Outdoor Pouf",
+    "brand": "Article",
+    "url": "https://www.article.com/product/27994/olara-25-indoor-outdoor-pouf-met-black",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 246.7,
+      "extract_seconds": 52.4,
+      "total_seconds": 299.1,
+      "peak_vram_gb": 18.7,
+      "vertices": 202380,
+      "triangles": 197067,
+      "glb_bytes": 13702064,
+      "glb_mb": 13.7
+    },
+    "glb": "soft-home/olara.glb"
+  },
+  {
+    "key": "soft-home/petter",
+    "category": "soft-home",
+    "pid": "petter",
+    "product": "Petter Shearling Pouf",
+    "brand": "Article",
+    "url": "https://www.article.com/product/25268/petter-25-pouf-short-shearling-white",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 239.6,
+      "extract_seconds": 62.3,
+      "total_seconds": 301.9,
+      "peak_vram_gb": 18.2,
+      "vertices": 133799,
+      "triangles": 196511,
+      "glb_bytes": 10941328,
+      "glb_mb": 10.94
+    },
+    "glb": "soft-home/petter.glb"
+  },
+  {
+    "key": "soft-home/priya",
+    "category": "soft-home",
+    "pid": "priya",
+    "product": "Priya Blockprint Pouf",
+    "brand": "Article",
+    "url": "https://www.article.com/product/24972/priya-25-5-pouf-yellow-blockprint",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 444.1,
+      "extract_seconds": 65.6,
+      "total_seconds": 509.7,
+      "peak_vram_gb": 18.8,
+      "vertices": 113447,
+      "triangles": 188313,
+      "glb_bytes": 9138100,
+      "glb_mb": 9.14
+    },
+    "glb": "soft-home/priya.glb"
+  },
+  {
+    "key": "soft-home/tolkning",
+    "category": "soft-home",
+    "pid": "tolkning",
+    "product": "TOLKNING Rattan Pouf",
+    "brand": "IKEA",
+    "url": "https://www.ikea.com/us/en/p/tolkning-ottoman-with-storage-handmade-rattan-90512666/",
+    "views": 4,
+    "stats": {
+      "gen_seconds": 59.1,
+      "extract_seconds": 59.2,
+      "total_seconds": 118.2,
+      "peak_vram_gb": 17.8,
+      "vertices": 143268,
+      "triangles": 187311,
+      "glb_bytes": 9199756,
+      "glb_mb": 9.2
+    },
+    "glb": "soft-home/tolkning.glb"
+  }
+]

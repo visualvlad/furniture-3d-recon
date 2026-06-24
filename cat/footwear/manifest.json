@@ -1,0 +1,102 @@
+[
+  {
+    "key": "footwear/drmartens",
+    "category": "footwear",
+    "pid": "drmartens",
+    "product": "Dr. Martens 1460",
+    "brand": "Zappos",
+    "url": "https://www.zappos.com/p/dr-martens-1460-womens-smooth-leather-lace-up-boots-black-smooth/product/9959617",
+    "views": 4,
+    "stats": {
+      "gen_seconds": 283.7,
+      "extract_seconds": 47.6,
+      "total_seconds": 331.3,
+      "peak_vram_gb": 18.5,
+      "vertices": 143174,
+      "triangles": 198358,
+      "glb_bytes": 10026604,
+      "glb_mb": 10.03
+    },
+    "glb": "footwear/drmartens.glb"
+  },
+  {
+    "key": "footwear/merrell",
+    "category": "footwear",
+    "pid": "merrell",
+    "product": "Merrell Moab Flight CF",
+    "brand": "Zappos",
+    "url": "https://www.zappos.com/p/merrell-work-moab-flight-cf-aragon/product/9788429",
+    "views": 4,
+    "stats": {
+      "gen_seconds": 540.0,
+      "extract_seconds": 69.1,
+      "total_seconds": 609.1,
+      "peak_vram_gb": 28.6,
+      "vertices": 198192,
+      "triangles": 198075,
+      "glb_bytes": 13596396,
+      "glb_mb": 13.6
+    },
+    "glb": "footwear/merrell.glb"
+  },
+  {
+    "key": "footwear/nb370",
+    "category": "footwear",
+    "pid": "nb370",
+    "product": "New Balance 370",
+    "brand": "Zappos",
+    "url": "https://www.zappos.com/p/new-balance-classics-370-concrete-sea-salt/product/10048770",
+    "views": 4,
+    "stats": {
+      "gen_seconds": 472.0,
+      "extract_seconds": 64.6,
+      "total_seconds": 536.6,
+      "peak_vram_gb": 24.7,
+      "vertices": 183470,
+      "triangles": 193797,
+      "glb_bytes": 11800856,
+      "glb_mb": 11.8
+    },
+    "glb": "footwear/nb370.glb"
+  },
+  {
+    "key": "footwear/nikeairmax",
+    "category": "footwear",
+    "pid": "nikeairmax",
+    "product": "Nike Air Max 90 G",
+    "brand": "Zappos",
+    "url": "https://www.zappos.com/p/nike-air-max-90-g-white-black/product/10031808",
+    "views": 4,
+    "stats": {
+      "gen_seconds": 185.8,
+      "extract_seconds": 66.9,
+      "total_seconds": 252.7,
+      "peak_vram_gb": 19.5,
+      "vertices": 129799,
+      "triangles": 196132,
+      "glb_bytes": 9544572,
+      "glb_mb": 9.54
+    },
+    "glb": "footwear/nikeairmax.glb"
+  },
+  {
+    "key": "footwear/stansmith",
+    "category": "footwear",
+    "pid": "stansmith",
+    "product": "adidas Stan Smith",
+    "brand": "Zappos",
+    "url": "https://www.zappos.com/p/adidas-originals-stan-smith/product/9551926",
+    "views": 4,
+    "stats": {
+      "gen_seconds": 368.6,
+      "extract_seconds": 52.4,
+      "total_seconds": 421.0,
+      "peak_vram_gb": 18.2,
+      "vertices": 141088,
+      "triangles": 188387,
+      "glb_bytes": 8561048,
+      "glb_mb": 8.56
+    },
+    "glb": "footwear/stansmith.glb"
+  }
+]

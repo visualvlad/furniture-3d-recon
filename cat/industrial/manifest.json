@@ -1,0 +1,102 @@
+[
+  {
+    "key": "industrial/compressor",
+    "category": "industrial",
+    "pid": "compressor",
+    "product": "Makita MAC2400 Air Compressor",
+    "brand": "Makita",
+    "url": "https://www.makitatools.com/products/details/MAC2400",
+    "views": 2,
+    "stats": {
+      "gen_seconds": 364.2,
+      "extract_seconds": 69.4,
+      "total_seconds": 433.6,
+      "peak_vram_gb": 27.1,
+      "vertices": 199501,
+      "triangles": 190608,
+      "glb_bytes": 14242888,
+      "glb_mb": 14.24
+    },
+    "glb": "industrial/compressor.glb"
+  },
+  {
+    "key": "industrial/drill",
+    "category": "industrial",
+    "pid": "drill",
+    "product": "Milwaukee M18 FUEL Hammer Drill",
+    "brand": "Milwaukee",
+    "url": "https://www.milwaukeetool.com/Products/Power-Tools/Drilling/Hammer-Drills/2904-22",
+    "views": 1,
+    "stats": {
+      "gen_seconds": 49.2,
+      "extract_seconds": 38.8,
+      "total_seconds": 88.1,
+      "peak_vram_gb": 18.7,
+      "vertices": 136362,
+      "triangles": 189775,
+      "glb_bytes": 11203148,
+      "glb_mb": 11.2
+    },
+    "glb": "industrial/drill.glb"
+  },
+  {
+    "key": "industrial/grinder",
+    "category": "industrial",
+    "pid": "grinder",
+    "product": "Makita GA5020 Angle Grinder",
+    "brand": "Makita",
+    "url": "https://www.makitatools.com/products/details/GA5020",
+    "views": 2,
+    "stats": {
+      "gen_seconds": 72.2,
+      "extract_seconds": 45.0,
+      "total_seconds": 117.2,
+      "peak_vram_gb": 16.7,
+      "vertices": 170013,
+      "triangles": 195646,
+      "glb_bytes": 12429320,
+      "glb_mb": 12.43
+    },
+    "glb": "industrial/grinder.glb"
+  },
+  {
+    "key": "industrial/packout",
+    "category": "industrial",
+    "pid": "packout",
+    "product": "Milwaukee PACKOUT Tool Box",
+    "brand": "Milwaukee",
+    "url": "https://www.milwaukeetool.com/Products/Hand-Tools/Mechanics-Tools/Tool-Storage/48-22-8425",
+    "views": 1,
+    "stats": {
+      "gen_seconds": 41.3,
+      "extract_seconds": 44.2,
+      "total_seconds": 85.5,
+      "peak_vram_gb": 16.4,
+      "vertices": 174576,
+      "triangles": 190512,
+      "glb_bytes": 13153628,
+      "glb_mb": 13.15
+    },
+    "glb": "industrial/packout.glb"
+  },
+  {
+    "key": "industrial/sander",
+    "category": "industrial",
+    "pid": "sander",
+    "product": "Makita 9403 Belt Sander",
+    "brand": "Makita",
+    "url": "https://www.makitatools.com/products/details/9403",
+    "views": 3,
+    "stats": {
+      "gen_seconds": 134.7,
+      "extract_seconds": 55.8,
+      "total_seconds": 190.5,
+      "peak_vram_gb": 17.6,
+      "vertices": 151041,
+      "triangles": 194256,
+      "glb_bytes": 11571940,
+      "glb_mb": 11.57
+    },
+    "glb": "industrial/sander.glb"
+  }
+]
