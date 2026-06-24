@@ -1,0 +1,156 @@
+[
+  {
+    "key": "Womens_Teva_Capistrano_Bootie",
+    "name": "Teva Capistrano Bootie",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 556.1,
+      "extract_seconds": 72.1,
+      "total_seconds": 628.2,
+      "peak_vram_gb": 23.3,
+      "vertices": 137671,
+      "triangles": 186221,
+      "glb_bytes": 9171440,
+      "glb_mb": 9.17
+    },
+    "glb": "Womens_Teva_Capistrano_Bootie.glb",
+    "metric": {
+      "chamfer": 41.51,
+      "fscore": 0.727,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "Schleich_Lion_Action_Figure",
+    "name": "Schleich Lion",
+    "type": "Toy \u00b7 animal",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 209.2,
+      "extract_seconds": 92.2,
+      "total_seconds": 301.4,
+      "peak_vram_gb": 19.1,
+      "vertices": 106391,
+      "triangles": 184863,
+      "glb_bytes": 8014868,
+      "glb_mb": 8.01
+    },
+    "glb": "Schleich_Lion_Action_Figure.glb",
+    "metric": {
+      "chamfer": 82.31,
+      "fscore": 0.374,
+      "align_deg": 180
+    }
+  },
+  {
+    "key": "Threshold_Porcelain_Teapot_White",
+    "name": "Porcelain Teapot",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 329.8,
+      "extract_seconds": 40.3,
+      "total_seconds": 370.1,
+      "peak_vram_gb": 18.1,
+      "vertices": 111329,
+      "triangles": 190628,
+      "glb_bytes": 7759004,
+      "glb_mb": 7.76
+    },
+    "glb": "Threshold_Porcelain_Teapot_White.glb",
+    "metric": {
+      "chamfer": 69.0,
+      "fscore": 0.567,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "Crosley_Alarm_Clock_Vintage_Metal",
+    "name": "Vintage Alarm Clock",
+    "type": "Gadget \u00b7 metal",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 196.2,
+      "extract_seconds": 63.1,
+      "total_seconds": 259.3,
+      "peak_vram_gb": 18.4,
+      "vertices": 116829,
+      "triangles": 199652,
+      "glb_bytes": 8490972,
+      "glb_mb": 8.49
+    },
+    "glb": "Crosley_Alarm_Clock_Vintage_Metal.glb",
+    "metric": {
+      "chamfer": 42.42,
+      "fscore": 0.845,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Sonny_School_Bus",
+    "name": "Toy School Bus",
+    "type": "Toy \u00b7 vehicle",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 678.8,
+      "extract_seconds": 52.9,
+      "total_seconds": 731.7,
+      "peak_vram_gb": 24.4,
+      "vertices": 150059,
+      "triangles": 198964,
+      "glb_bytes": 10982576,
+      "glb_mb": 10.98
+    },
+    "glb": "Sonny_School_Bus.glb",
+    "metric": {
+      "chamfer": 45.12,
+      "fscore": 0.734,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Lovable_Huggable_Cuddly_Boutique_Teddy_Bear_Beige",
+    "name": "Cuddly Teddy Bear",
+    "type": "Plush",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 286.3,
+      "extract_seconds": 52.2,
+      "total_seconds": 338.5,
+      "peak_vram_gb": 20.0,
+      "vertices": 139166,
+      "triangles": 186152,
+      "glb_bytes": 9781272,
+      "glb_mb": 9.78
+    },
+    "glb": "Lovable_Huggable_Cuddly_Boutique_Teddy_Bear_Beige.glb",
+    "metric": {
+      "chamfer": 31.02,
+      "fscore": 0.929,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "Nordic_Ware_Original_Bundt_Pan",
+    "name": "Bundt Pan",
+    "type": "Cookware \u00b7 metal",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 501.9,
+      "extract_seconds": 46.3,
+      "total_seconds": 548.3,
+      "peak_vram_gb": 20.3,
+      "vertices": 122420,
+      "triangles": 195044,
+      "glb_bytes": 8791056,
+      "glb_mb": 8.79
+    },
+    "glb": "Nordic_Ware_Original_Bundt_Pan.glb",
+    "metric": {
+      "chamfer": 38.23,
+      "fscore": 0.865,
+      "align_deg": 30
+    }
+  }
+]
