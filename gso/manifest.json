@@ -16,8 +16,8 @@
     },
     "glb": "Womens_Teva_Capistrano_Bootie.glb",
     "metric": {
-      "chamfer": 41.51,
-      "fscore": 0.727,
+      "chamfer": 41.48,
+      "fscore": 0.723,
       "align_deg": 330
     }
   },
@@ -38,9 +38,9 @@
     },
     "glb": "Schleich_Lion_Action_Figure.glb",
     "metric": {
-      "chamfer": 82.31,
-      "fscore": 0.374,
-      "align_deg": 180
+      "chamfer": 82.56,
+      "fscore": 0.372,
+      "align_deg": 150
     }
   },
   {
@@ -60,8 +60,8 @@
     },
     "glb": "Threshold_Porcelain_Teapot_White.glb",
     "metric": {
-      "chamfer": 69.0,
-      "fscore": 0.567,
+      "chamfer": 69.07,
+      "fscore": 0.562,
       "align_deg": 270
     }
   },
@@ -82,8 +82,8 @@
     },
     "glb": "Crosley_Alarm_Clock_Vintage_Metal.glb",
     "metric": {
-      "chamfer": 42.42,
-      "fscore": 0.845,
+      "chamfer": 42.36,
+      "fscore": 0.844,
       "align_deg": 30
     }
   },
@@ -104,8 +104,8 @@
     },
     "glb": "Sonny_School_Bus.glb",
     "metric": {
-      "chamfer": 45.12,
-      "fscore": 0.734,
+      "chamfer": 45.01,
+      "fscore": 0.738,
       "align_deg": 0
     }
   },
@@ -126,9 +126,9 @@
     },
     "glb": "Lovable_Huggable_Cuddly_Boutique_Teddy_Bear_Beige.glb",
     "metric": {
-      "chamfer": 31.02,
-      "fscore": 0.929,
-      "align_deg": 60
+      "chamfer": 30.88,
+      "fscore": 0.93,
+      "align_deg": 30
     }
   },
   {
@@ -148,8 +148,184 @@
     },
     "glb": "Nordic_Ware_Original_Bundt_Pan.glb",
     "metric": {
-      "chamfer": 38.23,
+      "chamfer": 38.4,
       "fscore": 0.865,
+      "align_deg": 120
+    }
+  },
+  {
+    "key": "Womens_Bluefish_2Eye_Boat_Shoe_in_Tan",
+    "name": "Boat Shoe (Tan)",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 217.6,
+      "extract_seconds": 55.9,
+      "total_seconds": 273.5,
+      "peak_vram_gb": 17.0,
+      "vertices": 115199,
+      "triangles": 189778,
+      "glb_bytes": 8242332,
+      "glb_mb": 8.24
+    },
+    "glb": "Womens_Bluefish_2Eye_Boat_Shoe_in_Tan.glb",
+    "metric": {
+      "chamfer": 21.63,
+      "fscore": 0.951,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "Razer_Taipan_Black_Ambidextrous_Gaming_Mouse",
+    "name": "Razer Taipan Mouse",
+    "type": "Electronics \u00b7 mouse",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 215.1,
+      "extract_seconds": 57.4,
+      "total_seconds": 272.5,
+      "peak_vram_gb": 17.8,
+      "vertices": 149876,
+      "triangles": 199146,
+      "glb_bytes": 9658876,
+      "glb_mb": 9.66
+    },
+    "glb": "Razer_Taipan_Black_Ambidextrous_Gaming_Mouse.glb",
+    "metric": {
+      "chamfer": 28.12,
+      "fscore": 0.895,
+      "align_deg": 150
+    }
+  },
+  {
+    "key": "Razer_Kraken_Pro_headset_Full_size_Black",
+    "name": "Razer Kraken Headset",
+    "type": "Electronics \u00b7 audio",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 202.7,
+      "extract_seconds": 57.5,
+      "total_seconds": 260.2,
+      "peak_vram_gb": 18.2,
+      "vertices": 120468,
+      "triangles": 185586,
+      "glb_bytes": 8567904,
+      "glb_mb": 8.57
+    },
+    "glb": "Razer_Kraken_Pro_headset_Full_size_Black.glb",
+    "metric": {
+      "chamfer": 34.53,
+      "fscore": 0.867,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "Room_Essentials_Mug_White_Yellow",
+    "name": "Ceramic Mug",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 720.7,
+      "extract_seconds": 52.5,
+      "total_seconds": 773.2,
+      "peak_vram_gb": 22.7,
+      "vertices": 102484,
+      "triangles": 187962,
+      "glb_bytes": 6509364,
+      "glb_mb": 6.51
+    },
+    "glb": "Room_Essentials_Mug_White_Yellow.glb",
+    "metric": {
+      "chamfer": 48.47,
+      "fscore": 0.684,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "Room_Essentials_Bowl_Turquiose",
+    "name": "Turquoise Bowl",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 647.8,
+      "extract_seconds": 75.6,
+      "total_seconds": 723.4,
+      "peak_vram_gb": 28.1,
+      "vertices": 133000,
+      "triangles": 193931,
+      "glb_bytes": 8787732,
+      "glb_mb": 8.79
+    },
+    "glb": "Room_Essentials_Bowl_Turquiose.glb",
+    "metric": {
+      "chamfer": 36.29,
+      "fscore": 0.748,
+      "align_deg": 240
+    }
+  },
+  {
+    "key": "Target_Basket_Medium",
+    "name": "Woven Basket",
+    "type": "Home \u00b7 storage",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 562.4,
+      "extract_seconds": 71.2,
+      "total_seconds": 633.6,
+      "peak_vram_gb": 20.9,
+      "vertices": 133692,
+      "triangles": 189621,
+      "glb_bytes": 8608064,
+      "glb_mb": 8.61
+    },
+    "glb": "Target_Basket_Medium.glb",
+    "metric": {
+      "chamfer": 49.51,
+      "fscore": 0.701,
+      "align_deg": 240
+    }
+  },
+  {
+    "key": "Sapota_Threshold_4_Ceramic_Round_Planter_Red",
+    "name": "Ceramic Planter",
+    "type": "Home \u00b7 decor",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 616.9,
+      "extract_seconds": 49.6,
+      "total_seconds": 666.4,
+      "peak_vram_gb": 20.0,
+      "vertices": 99746,
+      "triangles": 184898,
+      "glb_bytes": 7042360,
+      "glb_mb": 7.04
+    },
+    "glb": "Sapota_Threshold_4_Ceramic_Round_Planter_Red.glb",
+    "metric": {
+      "chamfer": 54.37,
+      "fscore": 0.665,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Olive_Kids_Mermaids_Pack_n_Snack_Backpack",
+    "name": "Kids Backpack",
+    "type": "Bag",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 352.3,
+      "extract_seconds": 46.7,
+      "total_seconds": 399.1,
+      "peak_vram_gb": 19.4,
+      "vertices": 128517,
+      "triangles": 192182,
+      "glb_bytes": 8492900,
+      "glb_mb": 8.49
+    },
+    "glb": "Olive_Kids_Mermaids_Pack_n_Snack_Backpack.glb",
+    "metric": {
+      "chamfer": 44.74,
+      "fscore": 0.715,
       "align_deg": 30
     }
   }

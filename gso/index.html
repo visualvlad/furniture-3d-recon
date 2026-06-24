@@ -105,7 +105,7 @@ function card(m){const t=m.stats||{};const mt=m.metric||{};
   </div>
  </div>`;}
 fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(data=>{
- const order=['Footwear','Toy · animal','Kitchenware','Gadget · metal','Toy · vehicle','Plush','Cookware · metal'];
+ const order=['Footwear','Bag','Electronics · mouse','Electronics · audio','Gadget · metal','Kitchenware','Cookware · metal','Home · storage','Home · decor','Toy · vehicle','Toy · animal','Plush'];
  data.sort((a,b)=>order.indexOf(a.type)-order.indexOf(b.type));
  document.getElementById('cards').innerHTML=data.map(card).join('');
  const f=data.filter(m=>m.metric).map(m=>m.metric.fscore);
