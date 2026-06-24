@@ -73,7 +73,7 @@ const CATS=['footwear','bags','homeware','soft-home','garden','bikes','industria
 function card(m,i){const t=m.stats;const idx=String(i+1).padStart(2,'0');
  return `<div class="card"><div class="viewer-wrap"><div class="viewer-tag">${idx} / ${m.product}</div><div class="viewer-hint">Drag to rotate</div>
  <model-viewer src="models/${m.pid}.glb" camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="22deg" interaction-prompt="none"
-  environment-image="../studio.hdr" tone-mapping="neutral" exposure="1.15" shadow-intensity="1" shadow-softness="0.8"
+  environment-image="../../studio.hdr" tone-mapping="neutral" exposure="1.15" shadow-intensity="1" shadow-softness="0.8"
   camera-orbit="25deg 72deg 105%" camera-target="auto" loading="lazy" reveal="auto"></model-viewer></div>
  <div class="panel"><div class="viewbadge">${m.views} view${m.views>1?'s':''} in</div>
  <div class="ptitle">${m.product}</div>
