@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ABO from-verticals · ReconViaGen × TRELLIS.2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Montserrat:wght@400;500;600;700&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/@google/model-viewer@4.0.0/dist/model-viewer.min.js"></script>
+<style>
+:root{--bg:#eaeae0;--white:#f4f4ec;--border:#d0d0c8;--text:#0a0a08;--muted:#64645c;--accent:#FB5E01;--accent-grad:linear-gradient(135deg,#F0280D 0%,#FB5E01 100%);--grid-dot:rgba(0,0,0,0.045)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.6;position:relative;-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(circle,var(--grid-dot) 1px,transparent 1px);background-size:28px 28px;pointer-events:none;z-index:0}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.display{font-family:'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;line-height:.97}
+em{font-style:normal;color:var(--muted)}
+header{padding:80px 0 26px}
+.eyebrow{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.11em;font-size:11px;color:var(--accent);margin-bottom:20px}
+h1.display{font-size:clamp(38px,6vw,64px);font-weight:500;margin-bottom:22px;max-width:17ch}
+.lede{font-size:15px;line-height:1.65;max-width:68ch;color:#1a1a16}
+.lede a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(251,94,1,.35)}
+.note{font-size:12.5px;color:var(--muted);max-width:68ch;margin-top:14px}
+#cards{padding:26px 0 40px;display:flex;flex-direction:column;gap:26px}
+.card{background:var(--white);border:1px solid var(--border);border-radius:16px;overflow:hidden}
+.viewers{display:grid;grid-template-columns:1fr 1fr}
+@media(max-width:760px){.viewers{grid-template-columns:1fr}}
+.vwrap{position:relative;background:#fff;min-height:380px;border-bottom:1px solid var(--border)}
+.vwrap:first-child{border-right:1px solid var(--border)}
+@media(max-width:760px){.vwrap:first-child{border-right:none}}
+model-viewer{width:100%;height:100%;min-height:380px;--poster-color:#fff;background:#fff}
+.vlab{position:absolute;top:13px;left:13px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;padding:5px 10px;border-radius:3px;backdrop-filter:blur(6px)}
+.vlab.recon{color:#fff;background:var(--accent-grad)}
+.vlab.gt{color:#0a0a08;background:rgba(255,255,255,.72);border:1px solid var(--border)}
+.vhint{position:absolute;bottom:11px;left:13px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:9px;color:var(--muted)}
+.panel{padding:22px 26px;display:grid;grid-template-columns:1.1fr 1fr;gap:26px}
+@media(max-width:760px){.panel{grid-template-columns:1fr;gap:18px}}
+.pleft{display:flex;flex-direction:column;gap:14px}
+.ptype{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:9.5px;color:#fff;background:var(--accent-grad);padding:4px 9px;border-radius:3px;align-self:flex-start}
+.ptitle{font-family:'Montserrat';font-size:19px;font-weight:600;letter-spacing:-.015em;line-height:1.2}
+.psrc{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:9.5px;color:var(--muted)}
+.inputs .lab{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:9px;color:var(--muted);margin-bottom:9px}
+.thumbs{display:flex;gap:7px;flex-wrap:wrap}
+.thumbs img{width:54px;height:54px;object-fit:contain;background:#fff;border:1px solid var(--border);border-radius:6px}
+.pright{display:flex;flex-direction:column;gap:14px}
+.bigmetrics{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.bm{background:var(--bg);border:1px solid var(--border);border-radius:11px;padding:13px 15px}
+.bm .k{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:9px;color:var(--muted);margin-bottom:5px}
+.bm .v{font-family:'Bricolage Grotesque',sans-serif;font-size:27px;font-weight:500;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.bm .v small{font-size:.42em;color:var(--muted);margin-left:3px;font-weight:400}
+.rows{display:grid;grid-template-columns:1fr 1fr;gap:4px 22px;border-top:1px solid var(--border);padding-top:13px}
+.row{display:flex;justify-content:space-between;gap:10px;font-size:12px;padding:2px 0}
+.row .l{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.05em;font-size:9.5px;color:var(--muted)}
+.row .r{font-weight:600;font-variant-numeric:tabular-nums}
+.row .r small{color:var(--muted);font-weight:400;margin-left:2px}
+footer{border-top:1px solid var(--border);margin-top:24px;padding:34px 0 80px}
+.foot{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);line-height:2}
+.loading{padding:60px 0;text-align:center;color:var(--muted);font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:11px}
+.pager{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;padding:14px 0}
+#pgbot{padding:30px 0 8px}
+.pg{font-family:'DM Mono',monospace;font-size:11px;min-width:34px;height:34px;padding:0 10px;border:1px solid var(--border);background:var(--white);color:var(--text);border-radius:8px;cursor:pointer;transition:all .12s}
+.pg:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}
+.pg.on{background:var(--accent-grad);color:#fff;border-color:transparent}
+.pg.nav{text-transform:uppercase;letter-spacing:.06em;font-size:10px;color:var(--muted)}
+.pg:disabled{opacity:.35;cursor:default}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">ABO from-verticals · ReconViaGen × TRELLIS.2</div>
+    <h1 class="display">Real spins, <em>catalogue ground truth.</em></h1>
+    <p class="lede">Real Amazon products from the Berkeley Objects set — each one carries a genuine 360° photographic turntable spin <em>and</em> an artist-made catalogue 3D model. We feed our model <em>six real spin frames</em> and stand the result next to the retailer's own glTF. Sampled across twelve home and furniture verticals. Drag either viewer.</p>
+    <p class="note">Metrics on unit-normalised meshes after ICP alignment: <strong>Chamfer</strong> = mean two-way surface distance (×10⁻³, lower is better); <strong>F-score@3%</strong> = fraction of surface within 3% of the object's size (higher is better). Ground truth here is the <em>catalogue glTF</em> — an artist model, not a scan — so treat it as a reference-match, not a gold geometry. Same fixed preset on every object: 1536 cascade · 30 steps · 4K texture · 200k tris.</p>
+  </header>
+  <div class="pager" id="pgtop"></div>
+  <main id="cards"><div class="loading">Loading models…</div></main>
+  <div class="pager" id="pgbot"></div>
+  <footer>
+    <div class="foot" id="foot">Real ABO 360 spins → 3D · compared to the catalogue glTF · reconstructed on one NVIDIA H100</div>
+  </footer>
+</div>
+<script>
+const fmt=n=>(n==null||n<0)?'—':n.toLocaleString('en-GB');
+const sec=s=>s==null?'—':(s>=60?Math.floor(s/60)+'m '+Math.round(s%60)+'s':Math.round(s)+'s');
+const MV=(src,lab,cls)=>`<div class="vwrap"><div class="vlab ${cls}">${lab}</div><div class="vhint">Drag to rotate</div>
+ <model-viewer src="${src}" camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="22deg" interaction-prompt="none"
+  environment-image="../studio.hdr" tone-mapping="neutral" exposure="1.12" shadow-intensity="1" shadow-softness="0.85"
+  camera-orbit="25deg 72deg 105%" camera-target="auto" loading="lazy" reveal="auto"></model-viewer></div>`;
+function card(m){const t=m.stats||{};const mt=m.metric||{};
+ const thumbs=Array.from({length:m.views||0},(_,i)=>`<img src="inputs/${m.key}/f${i}.jpg" alt="spin frame" loading="lazy">`).join('');
+ return `<div class="card">
+  <div class="viewers">${MV('recon/'+m.key+'.glb','Reconstruction','recon')}${MV('gt/'+m.key+'.glb','Catalogue 3D','gt')}</div>
+  <div class="panel">
+   <div class="pleft">
+    <span class="ptype">${m.category||''}</span>
+    <div class="ptitle">${m.name}</div>
+    <div class="psrc">${m.key} · real 360 spin</div>
+    <div class="inputs"><div class="lab">Input · ${m.views} spin frames</div><div class="thumbs">${thumbs}</div></div>
+   </div>
+   <div class="pright">
+    <div class="bigmetrics">
+     <div class="bm"><div class="k">Chamfer ↓</div><div class="v">${mt.chamfer!=null?mt.chamfer:'—'}<small>×10⁻³</small></div></div>
+     <div class="bm"><div class="k">F-score@3% ↑</div><div class="v">${mt.fscore!=null?mt.fscore:'—'}</div></div>
+    </div>
+    <div class="rows">
+     <div class="row"><span class="l">Generate</span><span class="r">${sec(t.gen_seconds)}</span></div>
+     <div class="row"><span class="l">Triangles</span><span class="r">${fmt(t.triangles)}</span></div>
+     <div class="row"><span class="l">Extract</span><span class="r">${sec(t.extract_seconds)}</span></div>
+     <div class="row"><span class="l">GLB size</span><span class="r">${t.glb_mb}<small> MB</small></span></div>
+     <div class="row"><span class="l">Total</span><span class="r">${sec(t.total_seconds)}</span></div>
+     <div class="row"><span class="l">Peak VRAM</span><span class="r">${t.peak_vram_gb}<small> GB</small></span></div>
+    </div>
+   </div>
+  </div>
+ </div>`;}
+let DATA=[], PAGE=0; const PER=9;
+const npages=()=>Math.max(1,Math.ceil(DATA.length/PER));
+function pager(){
+ let b='';
+ for(let i=0;i<npages();i++) b+=`<button class="pg${i===PAGE?' on':''}" onclick="goPage(${i})">${i+1}</button>`;
+ return `<button class="pg nav" onclick="goPage(${PAGE-1})"${PAGE===0?' disabled':''}>← prev</button>${b}<button class="pg nav" onclick="goPage(${PAGE+1})"${PAGE>=npages()-1?' disabled':''}>next →</button>`;
+}
+function goPage(p){
+ PAGE=Math.max(0,Math.min(p,npages()-1));
+ const slice=DATA.slice(PAGE*PER,(PAGE+1)*PER);
+ document.getElementById('cards').innerHTML=slice.map(card).join('');
+ document.getElementById('pgtop').innerHTML=pager();
+ document.getElementById('pgbot').innerHTML=pager();
+ document.getElementById('pgtop').scrollIntoView({behavior:'smooth',block:'start'});
+}
+fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(data=>{
+ data.sort((a,b)=>String(a.category).localeCompare(String(b.category)) || ((b.metric?b.metric.fscore:0)-(a.metric?a.metric.fscore:0)));
+ DATA=data; goPage(0);
+ const f=data.filter(m=>m.metric).map(m=>m.metric.fscore);
+ const nv=new Set(data.map(m=>m.category)).size;
+ if(f.length){const avg=(f.reduce((s,x)=>s+x,0)/f.length).toFixed(3);
+  document.getElementById('foot').innerHTML=`${data.length} real ABO products · ${nv} verticals · mean F-score@3% ${avg} · real 360 spins → 3D vs catalogue glTF · one NVIDIA H100`;}
+}).catch(e=>{document.getElementById('cards').innerHTML='<div class="loading">manifest error — '+e+'</div>';});
+</script>
+<script src="../viewer.js"></script>
+</body>
+</html>

@@ -52,11 +52,25 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding:38px 0 90px}
       <div class="edesc">Google Scanned Objects, held out from training, fed clean identity-consistent views — then shown next to the actual scanned mesh with Chamfer + F-score. The honest one.</div>
       <div class="open">Open →</div>
     </a>
+    <a class="exp" href="abo/">
+      <div class="tag">From verticals · scored</div>
+      <div class="stat" id="abostat">36<small>products · 12 verticals</small></div>
+      <div class="etitle">ABO · real spins vs catalogue 3D</div>
+      <div class="edesc">Real Amazon products with genuine 360° photo spins, reconstructed from six frames and measured against the retailer's own catalogue glTF — Chamfer + F-score across twelve home verticals.</div>
+      <div class="open">Open →</div>
+    </a>
     <a class="exp" href="cat/">
       <div class="tag">Across the range</div>
       <div class="stat">37<small>products · 8 categories</small></div>
       <div class="etitle">Cross-category sweep</div>
       <div class="edesc">One fixed max-quality preset on real retail products from footwear to bikes to jewellery. Where one model holds up, and where it breaks.</div>
+      <div class="open">Open →</div>
+    </a>
+    <a class="exp" href="spins/">
+      <div class="tag">Real retail spins</div>
+      <div class="stat">16<small>products · 6 categories</small></div>
+      <div class="etitle">360 spins → 3D</div>
+      <div class="edesc">Genuine photographic turntable spins from real product listings — six frames each, fed straight to the model. Identity-consistent multi-view, the way scraped stills never are.</div>
       <div class="open">Open →</div>
     </a>
     <a class="exp" href="furniture/">
@@ -83,6 +97,10 @@ footer{border-top:1px solid var(--border);margin-top:36px;padding:38px 0 90px}
 fetch('gso/manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
   document.getElementById('gsostat').innerHTML=d.length+'<small>held-out objects</small>';
 }).catch(()=>{document.getElementById('gsostat').innerHTML='Held-out<small>ground-truth scored</small>';});
+fetch('abo/manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{
+  const v=new Set(d.map(m=>m.category)).size;
+  document.getElementById('abostat').innerHTML=d.length+'<small>products · '+v+' verticals</small>';
+}).catch(()=>{});
 </script>
 </body>
 </html>

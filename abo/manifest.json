@@ -1,0 +1,830 @@
+[
+  {
+    "key": "B00EUL2B16",
+    "name": "Ashley Furniture Signature Design - Leahlyn Dining Upholster",
+    "category": "Chair",
+    "vertical": "Chair",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 166.4,
+      "extract_seconds": 43.8,
+      "total_seconds": 210.2,
+      "peak_vram_gb": 17.1,
+      "vertices": 115883,
+      "triangles": 190756,
+      "glb_bytes": 8190684,
+      "glb_mb": 8.19
+    },
+    "glb": "B00EUL2B16.glb",
+    "metric": {
+      "chamfer": 13.99,
+      "fscore": 0.997,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B00IFHPVEU",
+    "name": "AmazonBasics Leather-Padded, Adjustable, Swivel Office Desk ",
+    "category": "Chair",
+    "vertical": "Chair",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 204.0,
+      "extract_seconds": 56.1,
+      "total_seconds": 260.1,
+      "peak_vram_gb": 17.9,
+      "vertices": 142831,
+      "triangles": 189616,
+      "glb_bytes": 9823676,
+      "glb_mb": 9.82
+    },
+    "glb": "B00IFHPVEU.glb",
+    "metric": {
+      "chamfer": 26.71,
+      "fscore": 0.927,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "B00IIFW2L4",
+    "name": "AmazonBasics Mesh, Mid-Back, Adjustable, Swivel Office Desk ",
+    "category": "Chair",
+    "vertical": "Chair",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 181.5,
+      "extract_seconds": 50.9,
+      "total_seconds": 232.4,
+      "peak_vram_gb": 18.1,
+      "vertices": 146422,
+      "triangles": 192623,
+      "glb_bytes": 12334580,
+      "glb_mb": 12.33
+    },
+    "glb": "B00IIFW2L4.glb",
+    "metric": {
+      "chamfer": 39.42,
+      "fscore": 0.794,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B07124WMX5",
+    "name": "Amazon Brand \u2013 Rivet North End Exposed Wood Modern Sofa, 78\"",
+    "category": "Sofa",
+    "vertical": "Sofa",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 201.2,
+      "extract_seconds": 51.0,
+      "total_seconds": 252.2,
+      "peak_vram_gb": 18.3,
+      "vertices": 118634,
+      "triangles": 199909,
+      "glb_bytes": 8393660,
+      "glb_mb": 8.39
+    },
+    "glb": "B07124WMX5.glb",
+    "metric": {
+      "chamfer": 39.0,
+      "fscore": 0.837,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B07124WQLW",
+    "name": "Amazon Brand \u2013 Rivet Apex Modern Oversized Sofa Couch, 81\"W,",
+    "category": "Sofa",
+    "vertical": "Sofa",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 177.0,
+      "extract_seconds": 45.2,
+      "total_seconds": 222.2,
+      "peak_vram_gb": 18.1,
+      "vertices": 123723,
+      "triangles": 190003,
+      "glb_bytes": 9550508,
+      "glb_mb": 9.55
+    },
+    "glb": "B07124WQLW.glb",
+    "metric": {
+      "chamfer": 20.82,
+      "fscore": 0.919,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "B0714QGC72",
+    "name": "Amazon Brand \u2013 Stone & Beam Bradbury Chesterfield Tufted Lea",
+    "category": "Sofa",
+    "vertical": "Sofa",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 171.5,
+      "extract_seconds": 73.2,
+      "total_seconds": 244.7,
+      "peak_vram_gb": 18.1,
+      "vertices": 121294,
+      "triangles": 192848,
+      "glb_bytes": 8366680,
+      "glb_mb": 8.37
+    },
+    "glb": "B0714QGC72.glb",
+    "metric": {
+      "chamfer": 33.13,
+      "fscore": 0.847,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B06XDD4YTD",
+    "name": "Rivet Stonewashed Sunset Rug, 4' x 6', Blush",
+    "category": "Rug",
+    "vertical": "Rug",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 160.0,
+      "extract_seconds": 36.2,
+      "total_seconds": 196.2,
+      "peak_vram_gb": 17.8,
+      "vertices": 97910,
+      "triangles": 187458,
+      "glb_bytes": 8131072,
+      "glb_mb": 8.13
+    },
+    "glb": "B06XDD4YTD.glb",
+    "metric": {
+      "chamfer": 8.66,
+      "fscore": 0.992,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B07121ZVVT",
+    "name": "Amazon Brand \u2013 Stone & Beam Modern Textured Pattern Farmhous",
+    "category": "Rug",
+    "vertical": "Rug",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 156.2,
+      "extract_seconds": 111.4,
+      "total_seconds": 267.6,
+      "peak_vram_gb": 17.8,
+      "vertices": 102070,
+      "triangles": 195216,
+      "glb_bytes": 7927744,
+      "glb_mb": 7.93
+    },
+    "glb": "B07121ZVVT.glb",
+    "metric": {
+      "chamfer": 7.34,
+      "fscore": 1.0,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B07121ZVX4",
+    "name": "Amazon Brand \u2013 Stone & Beam Contemporary Textured Jute Area ",
+    "category": "Rug",
+    "vertical": "Rug",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 159.1,
+      "extract_seconds": 98.7,
+      "total_seconds": 257.8,
+      "peak_vram_gb": 17.8,
+      "vertices": 210056,
+      "triangles": 194357,
+      "glb_bytes": 14148604,
+      "glb_mb": 14.15
+    },
+    "glb": "B07121ZVX4.glb",
+    "metric": {
+      "chamfer": 6.08,
+      "fscore": 1.0,
+      "align_deg": 180
+    }
+  },
+  {
+    "key": "B073NZFTGD",
+    "name": "Amazon Brand \u2013 Rivet Set of 4 Silver Geodes Prints Wall Art ",
+    "category": "Wall Art",
+    "vertical": "Wall Art",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 225.5,
+      "extract_seconds": 55.5,
+      "total_seconds": 281.0,
+      "peak_vram_gb": 19.3,
+      "vertices": 130224,
+      "triangles": 197227,
+      "glb_bytes": 9588076,
+      "glb_mb": 9.59
+    },
+    "glb": "B073NZFTGD.glb",
+    "metric": {
+      "chamfer": 37.51,
+      "fscore": 0.927,
+      "align_deg": 240
+    }
+  },
+  {
+    "key": "B073NZFTGF",
+    "name": "Amazon Brand \u2013 Rivet Set of 4 Silver Geodes Prints Wall Art ",
+    "category": "Wall Art",
+    "vertical": "Wall Art",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 187.7,
+      "extract_seconds": 64.9,
+      "total_seconds": 252.6,
+      "peak_vram_gb": 18.1,
+      "vertices": 217313,
+      "triangles": 192163,
+      "glb_bytes": 13883048,
+      "glb_mb": 13.88
+    },
+    "glb": "B073NZFTGF.glb",
+    "metric": {
+      "chamfer": 21.69,
+      "fscore": 0.925,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B073NZFTH9",
+    "name": "Amazon Brand \u2013 Rivet Ground View Black and White Photography",
+    "category": "Wall Art",
+    "vertical": "Wall Art",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 269.7,
+      "extract_seconds": 42.0,
+      "total_seconds": 311.7,
+      "peak_vram_gb": 18.6,
+      "vertices": 101920,
+      "triangles": 191395,
+      "glb_bytes": 7210292,
+      "glb_mb": 7.21
+    },
+    "glb": "B073NZFTH9.glb",
+    "metric": {
+      "chamfer": 37.4,
+      "fscore": 0.889,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B002CM3J2A",
+    "name": "SuccessfulHome Dining Table Sturdy Wooden Table top, Comfort",
+    "category": "Table",
+    "vertical": "Table",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 220.0,
+      "extract_seconds": 39.3,
+      "total_seconds": 259.3,
+      "peak_vram_gb": 18.2,
+      "vertices": 128993,
+      "triangles": 190821,
+      "glb_bytes": 9684424,
+      "glb_mb": 9.68
+    },
+    "glb": "B002CM3J2A.glb",
+    "metric": {
+      "chamfer": 18.56,
+      "fscore": 0.981,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "B003DQ5B2U",
+    "name": "Movian Amazon Brand Corona Nest Of Tables, Solid Pine Wood",
+    "category": "Table",
+    "vertical": "Table",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 170.9,
+      "extract_seconds": 39.5,
+      "total_seconds": 210.4,
+      "peak_vram_gb": 18.1,
+      "vertices": 135189,
+      "triangles": 197150,
+      "glb_bytes": 9089136,
+      "glb_mb": 9.09
+    },
+    "glb": "B003DQ5B2U.glb",
+    "metric": {
+      "chamfer": 47.3,
+      "fscore": 0.777,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B003PBOMJ6",
+    "name": "kovalenthor Console Table - Black, for Entryway for Living R",
+    "category": "Table",
+    "vertical": "Table",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 110.4,
+      "extract_seconds": 37.0,
+      "total_seconds": 147.4,
+      "peak_vram_gb": 17.7,
+      "vertices": 112213,
+      "triangles": 185273,
+      "glb_bytes": 8377580,
+      "glb_mb": 8.38
+    },
+    "glb": "B003PBOMJ6.glb",
+    "metric": {
+      "chamfer": 38.21,
+      "fscore": 0.78,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "B005G2WO38",
+    "name": "Amazon Brand - Movian Corona TV Cabinet, Solid Pine Wood, 70",
+    "category": "Home Furniture And Decor",
+    "vertical": "Home Furniture And Decor",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 242.0,
+      "extract_seconds": 44.5,
+      "total_seconds": 286.5,
+      "peak_vram_gb": 18.2,
+      "vertices": 120584,
+      "triangles": 190578,
+      "glb_bytes": 8769148,
+      "glb_mb": 8.77
+    },
+    "glb": "B005G2WO38.glb",
+    "metric": {
+      "chamfer": 32.31,
+      "fscore": 0.887,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B008RLJR2G",
+    "name": "Amazon Brand - Movian Corona TV Cabinet, Straight Unit, Stan",
+    "category": "Home Furniture And Decor",
+    "vertical": "Home Furniture And Decor",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 223.7,
+      "extract_seconds": 50.0,
+      "total_seconds": 273.8,
+      "peak_vram_gb": 18.3,
+      "vertices": 123261,
+      "triangles": 191442,
+      "glb_bytes": 9588056,
+      "glb_mb": 9.59
+    },
+    "glb": "B008RLJR2G.glb",
+    "metric": {
+      "chamfer": 25.58,
+      "fscore": 0.963,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B01HEZJ3EC",
+    "name": "Amazon Brand - Movian Corona Sideboard, 2 Door 2 Drawer, Sol",
+    "category": "Home Furniture And Decor",
+    "vertical": "Home Furniture And Decor",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 179.5,
+      "extract_seconds": 68.7,
+      "total_seconds": 248.2,
+      "peak_vram_gb": 18.4,
+      "vertices": 145686,
+      "triangles": 198164,
+      "glb_bytes": 9665012,
+      "glb_mb": 9.67
+    },
+    "glb": "B01HEZJ3EC.glb",
+    "metric": {
+      "chamfer": 41.55,
+      "fscore": 0.727,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B07374C6R9",
+    "name": "Amazon Brand \u2013 Stone & Beam Glass Column Living Room Standin",
+    "category": "Lamp",
+    "vertical": "Lamp",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 104.1,
+      "extract_seconds": 31.2,
+      "total_seconds": 135.3,
+      "peak_vram_gb": 17.8,
+      "vertices": 124428,
+      "triangles": 188475,
+      "glb_bytes": 9636688,
+      "glb_mb": 9.64
+    },
+    "glb": "B07374C6R9.glb",
+    "metric": {
+      "chamfer": 24.93,
+      "fscore": 0.964,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "B07374K536",
+    "name": "Amazon Brand \u2013 Rivet Caden Adjustable Task Floor Lamp with B",
+    "category": "Lamp",
+    "vertical": "Lamp",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 155.1,
+      "extract_seconds": 37.2,
+      "total_seconds": 192.3,
+      "peak_vram_gb": 17.3,
+      "vertices": 119437,
+      "triangles": 188877,
+      "glb_bytes": 8512972,
+      "glb_mb": 8.51
+    },
+    "glb": "B07374K536.glb",
+    "metric": {
+      "chamfer": 15.66,
+      "fscore": 0.987,
+      "align_deg": 90
+    }
+  },
+  {
+    "key": "B07374K53C",
+    "name": "Amazon Brand \u2013 Stone & Beam Ceramic Geometric Cut-Out Table ",
+    "category": "Lamp",
+    "vertical": "Lamp",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 350.9,
+      "extract_seconds": 59.1,
+      "total_seconds": 410.0,
+      "peak_vram_gb": 17.6,
+      "vertices": 153497,
+      "triangles": 185764,
+      "glb_bytes": 10915696,
+      "glb_mb": 10.92
+    },
+    "glb": "B07374K53C.glb",
+    "metric": {
+      "chamfer": 25.8,
+      "fscore": 0.92,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B072Y2MRY2",
+    "name": "AmazonBasics Multi-Purpose Drafting Spa Bar Stool with Wheel",
+    "category": "Stool Seating",
+    "vertical": "Stool Seating",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 271.2,
+      "extract_seconds": 49.1,
+      "total_seconds": 320.3,
+      "peak_vram_gb": 19.0,
+      "vertices": 139468,
+      "triangles": 195867,
+      "glb_bytes": 10425228,
+      "glb_mb": 10.43
+    },
+    "glb": "B072Y2MRY2.glb",
+    "metric": {
+      "chamfer": 80.15,
+      "fscore": 0.526,
+      "align_deg": 150
+    }
+  },
+  {
+    "key": "B072Y2S76T",
+    "name": "AmazonBasics Multi-Purpose Adjustable Drafting Spa Bar Stool",
+    "category": "Stool Seating",
+    "vertical": "Stool Seating",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 129.8,
+      "extract_seconds": 48.7,
+      "total_seconds": 178.5,
+      "peak_vram_gb": 18.1,
+      "vertices": 143013,
+      "triangles": 195656,
+      "glb_bytes": 11252476,
+      "glb_mb": 11.25
+    },
+    "glb": "B072Y2S76T.glb",
+    "metric": {
+      "chamfer": 14.01,
+      "fscore": 0.995,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "B072Y4BH7D",
+    "name": "AmazonBasics Multi-Purpose Drafting Spa Bar Stool with Back ",
+    "category": "Stool Seating",
+    "vertical": "Stool Seating",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 159.1,
+      "extract_seconds": 41.9,
+      "total_seconds": 201.0,
+      "peak_vram_gb": 17.7,
+      "vertices": 141744,
+      "triangles": 199354,
+      "glb_bytes": 9221276,
+      "glb_mb": 9.22
+    },
+    "glb": "B072Y4BH7D.glb",
+    "metric": {
+      "chamfer": 14.87,
+      "fscore": 0.997,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "B07124WMZZ",
+    "name": "Amazon Brand \u2013 Rivet Sloane Mid-Century Modern Ottoman with ",
+    "category": "Ottoman",
+    "vertical": "Ottoman",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 188.9,
+      "extract_seconds": 65.2,
+      "total_seconds": 254.1,
+      "peak_vram_gb": 18.0,
+      "vertices": 121440,
+      "triangles": 191658,
+      "glb_bytes": 8528600,
+      "glb_mb": 8.53
+    },
+    "glb": "B07124WMZZ.glb",
+    "metric": {
+      "chamfer": 87.46,
+      "fscore": 0.394,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "B07124WN22",
+    "name": "Amazon Brand \u2013 Rivet Ross Modern Tweed Lift-Top Storage Otto",
+    "category": "Ottoman",
+    "vertical": "Ottoman",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 194.7,
+      "extract_seconds": 39.8,
+      "total_seconds": 234.5,
+      "peak_vram_gb": 18.4,
+      "vertices": 120273,
+      "triangles": 191098,
+      "glb_bytes": 9911452,
+      "glb_mb": 9.91
+    },
+    "glb": "B07124WN22.glb",
+    "metric": {
+      "chamfer": 51.4,
+      "fscore": 0.673,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "B0714QGLVP",
+    "name": "Amazon Brand \u2013 Rivet Madison Modern Round Lift-Top Storage T",
+    "category": "Ottoman",
+    "vertical": "Ottoman",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 617.3,
+      "extract_seconds": 81.3,
+      "total_seconds": 698.6,
+      "peak_vram_gb": 19.9,
+      "vertices": 128444,
+      "triangles": 193881,
+      "glb_bytes": 13359860,
+      "glb_mb": 13.36
+    },
+    "glb": "B0714QGLVP.glb",
+    "metric": {
+      "chamfer": 61.92,
+      "fscore": 0.68,
+      "align_deg": 90
+    }
+  },
+  {
+    "key": "B074VC69P9",
+    "name": "Amazon Brand \u2013 Stone & Beam French Laundry Stripe Decorative",
+    "category": "Pillow",
+    "vertical": "Pillow",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 440.0,
+      "extract_seconds": 80.3,
+      "total_seconds": 520.3,
+      "peak_vram_gb": 19.9,
+      "vertices": 112643,
+      "triangles": 198739,
+      "glb_bytes": 9323044,
+      "glb_mb": 9.32
+    },
+    "glb": "B074VC69P9.glb",
+    "metric": {
+      "chamfer": 19.42,
+      "fscore": 0.986,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "B074VKVNQX",
+    "name": "Amazon Brand \u2013 Stone & Beam Medallion Decorative Throw Pillo",
+    "category": "Pillow",
+    "vertical": "Pillow",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 395.0,
+      "extract_seconds": 64.0,
+      "total_seconds": 459.0,
+      "peak_vram_gb": 19.3,
+      "vertices": 118379,
+      "triangles": 191726,
+      "glb_bytes": 9295360,
+      "glb_mb": 9.3
+    },
+    "glb": "B074VKVNQX.glb",
+    "metric": {
+      "chamfer": 43.45,
+      "fscore": 0.763,
+      "align_deg": 300
+    }
+  },
+  {
+    "key": "B074VKVP98",
+    "name": "Amazon Brand \u2013 Rivet Mudcloth-Inspired Decorative Throw Pill",
+    "category": "Pillow",
+    "vertical": "Pillow",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 152.0,
+      "extract_seconds": 46.2,
+      "total_seconds": 198.3,
+      "peak_vram_gb": 18.4,
+      "vertices": 117695,
+      "triangles": 195760,
+      "glb_bytes": 9031712,
+      "glb_mb": 9.03
+    },
+    "glb": "B074VKVP98.glb",
+    "metric": {
+      "chamfer": 24.95,
+      "fscore": 0.931,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "B071ZHY8X9",
+    "name": "Amazon Brand \u2013 Stone & Beam Newport 3-Drawer Bedroom Dresser",
+    "category": "Headboard",
+    "vertical": "Headboard",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 163.6,
+      "extract_seconds": 47.8,
+      "total_seconds": 211.4,
+      "peak_vram_gb": 18.1,
+      "vertices": 121925,
+      "triangles": 189347,
+      "glb_bytes": 9575028,
+      "glb_mb": 9.58
+    },
+    "glb": "B071ZHY8X9.glb",
+    "metric": {
+      "chamfer": 49.7,
+      "fscore": 0.75,
+      "align_deg": 300
+    }
+  },
+  {
+    "key": "B075QBL1TB",
+    "name": "Rivet Nova Modern Arched Headboard Queen Gold Metal Bed Fram",
+    "category": "Headboard",
+    "vertical": "Headboard",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 192.5,
+      "extract_seconds": 62.4,
+      "total_seconds": 254.9,
+      "peak_vram_gb": 17.9,
+      "vertices": 138133,
+      "triangles": 197297,
+      "glb_bytes": 9092920,
+      "glb_mb": 9.09
+    },
+    "glb": "B075QBL1TB.glb",
+    "metric": {
+      "chamfer": 28.78,
+      "fscore": 0.885,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "B075QBL1V8",
+    "name": "Stone & Beam Clifton Modern Upholstered King Bed with Headbo",
+    "category": "Headboard",
+    "vertical": "Headboard",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 208.5,
+      "extract_seconds": 41.6,
+      "total_seconds": 250.1,
+      "peak_vram_gb": 18.1,
+      "vertices": 157612,
+      "triangles": 199518,
+      "glb_bytes": 10414588,
+      "glb_mb": 10.41
+    },
+    "glb": "B075QBL1V8.glb",
+    "metric": {
+      "chamfer": 36.27,
+      "fscore": 0.865,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "B0711Q7WK7",
+    "name": "Amazon Brand \u2013 Rivet Modern Industrial Geometric Cage Pendan",
+    "category": "Light Fixture",
+    "vertical": "Light Fixture",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 115.0,
+      "extract_seconds": 40.9,
+      "total_seconds": 155.9,
+      "peak_vram_gb": 17.8,
+      "vertices": 159668,
+      "triangles": 191255,
+      "glb_bytes": 10431440,
+      "glb_mb": 10.43
+    },
+    "glb": "B0711Q7WK7.glb",
+    "metric": {
+      "chamfer": 24.63,
+      "fscore": 0.903,
+      "align_deg": 120
+    }
+  },
+  {
+    "key": "B07149T97D",
+    "name": "Amazon Brand \u2013 Stone & Beam Industrial Farmhouse Indoor Pend",
+    "category": "Light Fixture",
+    "vertical": "Light Fixture",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 93.8,
+      "extract_seconds": 53.4,
+      "total_seconds": 147.2,
+      "peak_vram_gb": 17.1,
+      "vertices": 228555,
+      "triangles": 195794,
+      "glb_bytes": 15156484,
+      "glb_mb": 15.16
+    },
+    "glb": "B07149T97D.glb",
+    "metric": {
+      "chamfer": 17.79,
+      "fscore": 0.992,
+      "align_deg": 180
+    }
+  },
+  {
+    "key": "B07149TB7Y",
+    "name": "Amazon Brand \u2013 Rivet Modern Industrial Geometric Cage Pendan",
+    "category": "Light Fixture",
+    "vertical": "Light Fixture",
+    "views": 6,
+    "stats": {
+      "gen_seconds": 74.4,
+      "extract_seconds": 45.9,
+      "total_seconds": 120.3,
+      "peak_vram_gb": 17.3,
+      "vertices": 158506,
+      "triangles": 198571,
+      "glb_bytes": 10835828,
+      "glb_mb": 10.84
+    },
+    "glb": "B07149TB7Y.glb",
+    "metric": {
+      "chamfer": 34.11,
+      "fscore": 0.828,
+      "align_deg": 150
+    }
+  }
+]
