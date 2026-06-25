@@ -16,8 +16,8 @@
     },
     "glb": "Womens_Teva_Capistrano_Bootie.glb",
     "metric": {
-      "chamfer": 41.48,
-      "fscore": 0.723,
+      "chamfer": 41.62,
+      "fscore": 0.722,
       "align_deg": 330
     }
   },
@@ -38,8 +38,8 @@
     },
     "glb": "Schleich_Lion_Action_Figure.glb",
     "metric": {
-      "chamfer": 82.56,
-      "fscore": 0.372,
+      "chamfer": 82.61,
+      "fscore": 0.374,
       "align_deg": 150
     }
   },
@@ -60,7 +60,7 @@
     },
     "glb": "Threshold_Porcelain_Teapot_White.glb",
     "metric": {
-      "chamfer": 69.07,
+      "chamfer": 69.02,
       "fscore": 0.562,
       "align_deg": 270
     }
@@ -82,9 +82,9 @@
     },
     "glb": "Crosley_Alarm_Clock_Vintage_Metal.glb",
     "metric": {
-      "chamfer": 42.36,
-      "fscore": 0.844,
-      "align_deg": 30
+      "chamfer": 42.22,
+      "fscore": 0.848,
+      "align_deg": 60
     }
   },
   {
@@ -104,8 +104,8 @@
     },
     "glb": "Sonny_School_Bus.glb",
     "metric": {
-      "chamfer": 45.01,
-      "fscore": 0.738,
+      "chamfer": 45.3,
+      "fscore": 0.734,
       "align_deg": 0
     }
   },
@@ -126,7 +126,7 @@
     },
     "glb": "Lovable_Huggable_Cuddly_Boutique_Teddy_Bear_Beige.glb",
     "metric": {
-      "chamfer": 30.88,
+      "chamfer": 30.82,
       "fscore": 0.93,
       "align_deg": 30
     }
@@ -148,9 +148,9 @@
     },
     "glb": "Nordic_Ware_Original_Bundt_Pan.glb",
     "metric": {
-      "chamfer": 38.4,
-      "fscore": 0.865,
-      "align_deg": 120
+      "chamfer": 38.59,
+      "fscore": 0.863,
+      "align_deg": 30
     }
   },
   {
@@ -170,8 +170,8 @@
     },
     "glb": "Womens_Bluefish_2Eye_Boat_Shoe_in_Tan.glb",
     "metric": {
-      "chamfer": 21.63,
-      "fscore": 0.951,
+      "chamfer": 21.83,
+      "fscore": 0.949,
       "align_deg": 330
     }
   },
@@ -192,8 +192,8 @@
     },
     "glb": "Razer_Taipan_Black_Ambidextrous_Gaming_Mouse.glb",
     "metric": {
-      "chamfer": 28.12,
-      "fscore": 0.895,
+      "chamfer": 28.01,
+      "fscore": 0.896,
       "align_deg": 150
     }
   },
@@ -214,8 +214,8 @@
     },
     "glb": "Razer_Kraken_Pro_headset_Full_size_Black.glb",
     "metric": {
-      "chamfer": 34.53,
-      "fscore": 0.867,
+      "chamfer": 34.71,
+      "fscore": 0.866,
       "align_deg": 60
     }
   },
@@ -236,8 +236,8 @@
     },
     "glb": "Room_Essentials_Mug_White_Yellow.glb",
     "metric": {
-      "chamfer": 48.47,
-      "fscore": 0.684,
+      "chamfer": 48.33,
+      "fscore": 0.682,
       "align_deg": 60
     }
   },
@@ -258,9 +258,9 @@
     },
     "glb": "Room_Essentials_Bowl_Turquiose.glb",
     "metric": {
-      "chamfer": 36.29,
-      "fscore": 0.748,
-      "align_deg": 240
+      "chamfer": 36.32,
+      "fscore": 0.743,
+      "align_deg": 60
     }
   },
   {
@@ -280,9 +280,9 @@
     },
     "glb": "Target_Basket_Medium.glb",
     "metric": {
-      "chamfer": 49.51,
-      "fscore": 0.701,
-      "align_deg": 240
+      "chamfer": 49.64,
+      "fscore": 0.707,
+      "align_deg": 120
     }
   },
   {
@@ -302,8 +302,8 @@
     },
     "glb": "Sapota_Threshold_4_Ceramic_Round_Planter_Red.glb",
     "metric": {
-      "chamfer": 54.37,
-      "fscore": 0.665,
+      "chamfer": 54.57,
+      "fscore": 0.666,
       "align_deg": 0
     }
   },
@@ -324,8 +324,1328 @@
     },
     "glb": "Olive_Kids_Mermaids_Pack_n_Snack_Backpack.glb",
     "metric": {
-      "chamfer": 44.74,
+      "chamfer": 44.77,
+      "fscore": 0.71,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Timberland_Mens_Earthkeepers_Stormbuck_Chukka",
+    "name": "Timberland Chukka",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 186.7,
+      "extract_seconds": 76.9,
+      "total_seconds": 263.6,
+      "peak_vram_gb": 17.1,
+      "vertices": 113074,
+      "triangles": 191192,
+      "glb_bytes": 8159104,
+      "glb_mb": 8.16
+    },
+    "glb": "Timberland_Mens_Earthkeepers_Stormbuck_Chukka.glb",
+    "metric": {
+      "chamfer": 39.07,
+      "fscore": 0.837,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "NAPA_VALLEY_NAVAJO_SANDAL",
+    "name": "Navajo Sandal",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 145.4,
+      "extract_seconds": 52.1,
+      "total_seconds": 197.4,
+      "peak_vram_gb": 17.5,
+      "vertices": 113315,
+      "triangles": 190420,
+      "glb_bytes": 8218020,
+      "glb_mb": 8.22
+    },
+    "glb": "NAPA_VALLEY_NAVAJO_SANDAL.glb",
+    "metric": {
+      "chamfer": 21.91,
+      "fscore": 0.953,
+      "align_deg": 180
+    }
+  },
+  {
+    "key": "Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin",
+    "name": "Betty Sequin Chukka",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 297.6,
+      "extract_seconds": 62.9,
+      "total_seconds": 360.5,
+      "peak_vram_gb": 17.7,
+      "vertices": 149355,
+      "triangles": 196916,
+      "glb_bytes": 10077536,
+      "glb_mb": 10.08
+    },
+    "glb": "Womens_Betty_Chukka_Boot_in_Grey_Jersey_Sequin.glb",
+    "metric": {
+      "chamfer": 27.09,
+      "fscore": 0.914,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "Womens_Hikerfish_Boot_in_Black_Leopard_bVSNY1Le1sm",
+    "name": "Hikerfish Leopard Boot",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 616.6,
+      "extract_seconds": 63.1,
+      "total_seconds": 679.7,
+      "peak_vram_gb": 22.2,
+      "vertices": 146762,
+      "triangles": 191517,
+      "glb_bytes": 10664044,
+      "glb_mb": 10.66
+    },
+    "glb": "Womens_Hikerfish_Boot_in_Black_Leopard_bVSNY1Le1sm.glb",
+    "metric": {
+      "chamfer": 25.0,
+      "fscore": 0.914,
+      "align_deg": 90
+    }
+  },
+  {
+    "key": "Rayna_BootieWP",
+    "name": "Rayna Bootie",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 511.1,
+      "extract_seconds": 55.3,
+      "total_seconds": 566.4,
+      "peak_vram_gb": 19.7,
+      "vertices": 117715,
+      "triangles": 195212,
+      "glb_bytes": 8868932,
+      "glb_mb": 8.87
+    },
+    "glb": "Rayna_BootieWP.glb",
+    "metric": {
+      "chamfer": 27.64,
+      "fscore": 0.915,
+      "align_deg": 240
+    }
+  },
+  {
+    "key": "Sperry_TopSider_pSUFPWQXPp3",
+    "name": "Sperry Top-Sider",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 447.9,
+      "extract_seconds": 51.9,
+      "total_seconds": 499.8,
+      "peak_vram_gb": 19.3,
+      "vertices": 115470,
+      "triangles": 191498,
+      "glb_bytes": 9041164,
+      "glb_mb": 9.04
+    },
+    "glb": "Sperry_TopSider_pSUFPWQXPp3.glb",
+    "metric": {
+      "chamfer": 28.69,
+      "fscore": 0.919,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "Razer_BlackWidow_Tournament_Edition_Keyboard",
+    "name": "Razer Keyboard",
+    "type": "Electronics \u00b7 keyboard",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 164.6,
+      "extract_seconds": 62.5,
+      "total_seconds": 227.2,
+      "peak_vram_gb": 18.6,
+      "vertices": 144032,
+      "triangles": 188402,
+      "glb_bytes": 9183780,
+      "glb_mb": 9.18
+    },
+    "glb": "Razer_BlackWidow_Tournament_Edition_Keyboard.glb",
+    "metric": {
+      "chamfer": 19.07,
+      "fscore": 0.997,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Razer_Naga_MMO_Gaming_Mouse",
+    "name": "Razer Naga Mouse",
+    "type": "Electronics \u00b7 mouse",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 87.4,
+      "extract_seconds": 44.3,
+      "total_seconds": 131.8,
+      "peak_vram_gb": 17.4,
+      "vertices": 125101,
+      "triangles": 199798,
+      "glb_bytes": 8968496,
+      "glb_mb": 8.97
+    },
+    "glb": "Razer_Naga_MMO_Gaming_Mouse.glb",
+    "metric": {
+      "chamfer": 17.23,
+      "fscore": 0.985,
+      "align_deg": 240
+    }
+  },
+  {
+    "key": "RedBlack_Nintendo_3DSXL",
+    "name": "Nintendo 3DS XL",
+    "type": "Electronics \u00b7 console",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 326.9,
+      "extract_seconds": 49.3,
+      "total_seconds": 376.1,
+      "peak_vram_gb": 17.6,
+      "vertices": 134573,
+      "triangles": 196576,
+      "glb_bytes": 10514212,
+      "glb_mb": 10.51
+    },
+    "glb": "RedBlack_Nintendo_3DSXL.glb",
+    "metric": {
+      "chamfer": 32.11,
+      "fscore": 0.892,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Super_Mario_Kart_Super_Nintendo_Entertainment_System",
+    "name": "SNES Mario Kart",
+    "type": "Electronics \u00b7 console",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 188.6,
+      "extract_seconds": 51.5,
+      "total_seconds": 240.1,
+      "peak_vram_gb": 18.3,
+      "vertices": 110405,
+      "triangles": 192340,
+      "glb_bytes": 7619964,
+      "glb_mb": 7.62
+    },
+    "glb": "Super_Mario_Kart_Super_Nintendo_Entertainment_System.glb",
+    "metric": {
+      "chamfer": 19.91,
+      "fscore": 0.968,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Razer_Kraken_71_Chroma_headset_Full_size_Black",
+    "name": "Razer Kraken 7.1 (boxed)",
+    "type": "Electronics \u00b7 audio",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 379.8,
+      "extract_seconds": 68.2,
+      "total_seconds": 448.0,
+      "peak_vram_gb": 22.0,
+      "vertices": 153538,
+      "triangles": 195021,
+      "glb_bytes": 11672672,
+      "glb_mb": 11.67
+    },
+    "glb": "Razer_Kraken_71_Chroma_headset_Full_size_Black.glb",
+    "metric": {
+      "chamfer": 22.15,
+      "fscore": 0.934,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Threshold_Porcelain_Serving_Bowl_Coupe_White",
+    "name": "Serving Bowl",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 333.3,
+      "extract_seconds": 48.3,
+      "total_seconds": 381.7,
+      "peak_vram_gb": 19.9,
+      "vertices": 101766,
+      "triangles": 188824,
+      "glb_bytes": 6810544,
+      "glb_mb": 6.81
+    },
+    "glb": "Threshold_Porcelain_Serving_Bowl_Coupe_White.glb",
+    "metric": {
+      "chamfer": 48.31,
+      "fscore": 0.628,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "Utana_5_Porcelain_Ramekin_Large",
+    "name": "Porcelain Ramekin",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 610.9,
+      "extract_seconds": 61.5,
+      "total_seconds": 672.4,
+      "peak_vram_gb": 20.5,
+      "vertices": 102262,
+      "triangles": 185808,
+      "glb_bytes": 6531592,
+      "glb_mb": 6.53
+    },
+    "glb": "Utana_5_Porcelain_Ramekin_Large.glb",
+    "metric": {
+      "chamfer": 21.13,
+      "fscore": 0.99,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring",
+    "name": "Ruby Dinner Plate",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 139.0,
+      "extract_seconds": 88.0,
+      "total_seconds": 227.0,
+      "peak_vram_gb": 18.7,
+      "vertices": 123505,
+      "triangles": 199844,
+      "glb_bytes": 7342024,
+      "glb_mb": 7.34
+    },
+    "glb": "Threshold_Bistro_Ceramic_Dinner_Plate_Ruby_Ring.glb",
+    "metric": {
+      "chamfer": 19.07,
+      "fscore": 0.99,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "Threshold_Bamboo_Ceramic_Soap_Dish",
+    "name": "Bamboo Soap Dish",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 432.9,
+      "extract_seconds": 57.9,
+      "total_seconds": 490.8,
+      "peak_vram_gb": 18.4,
+      "vertices": 102793,
+      "triangles": 185969,
+      "glb_bytes": 6964020,
+      "glb_mb": 6.96
+    },
+    "glb": "Threshold_Bamboo_Ceramic_Soap_Dish.glb",
+    "metric": {
+      "chamfer": 49.73,
+      "fscore": 0.669,
+      "align_deg": 240
+    }
+  },
+  {
+    "key": "Room_Essentials_Dish_Drainer_Collapsible_White",
+    "name": "Collapsible Dish Drainer",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 640.4,
+      "extract_seconds": 65.0,
+      "total_seconds": 705.4,
+      "peak_vram_gb": 23.3,
+      "vertices": 131692,
+      "triangles": 186895,
+      "glb_bytes": 9097348,
+      "glb_mb": 9.1
+    },
+    "glb": "Room_Essentials_Dish_Drainer_Collapsible_White.glb",
+    "metric": {
+      "chamfer": 24.88,
+      "fscore": 0.948,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Sterilite_Caddy_Blue_Sky_17_58_x_12_58_x_9_14",
+    "name": "Sterilite Caddy",
+    "type": "Home \u00b7 storage",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 549.3,
+      "extract_seconds": 58.3,
+      "total_seconds": 607.6,
+      "peak_vram_gb": 21.7,
+      "vertices": 119905,
+      "triangles": 196953,
+      "glb_bytes": 7532900,
+      "glb_mb": 7.53
+    },
+    "glb": "Sterilite_Caddy_Blue_Sky_17_58_x_12_58_x_9_14.glb",
+    "metric": {
+      "chamfer": 31.43,
+      "fscore": 0.897,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Ecoforms_Planter_Pot_QP6Ebony",
+    "name": "Ecoforms Planter",
+    "type": "Home \u00b7 decor",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 653.1,
+      "extract_seconds": 60.1,
+      "total_seconds": 713.2,
+      "peak_vram_gb": 22.3,
+      "vertices": 103858,
+      "triangles": 195687,
+      "glb_bytes": 7739128,
+      "glb_mb": 7.74
+    },
+    "glb": "Ecoforms_Planter_Pot_QP6Ebony.glb",
+    "metric": {
+      "chamfer": 25.66,
+      "fscore": 0.984,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "Markings_Desk_Caddy",
+    "name": "Desk Caddy",
+    "type": "Home \u00b7 storage",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 305.7,
+      "extract_seconds": 41.3,
+      "total_seconds": 347.0,
+      "peak_vram_gb": 19.8,
+      "vertices": 108005,
+      "triangles": 188764,
+      "glb_bytes": 7713892,
+      "glb_mb": 7.71
+    },
+    "glb": "Markings_Desk_Caddy.glb",
+    "metric": {
+      "chamfer": 18.52,
+      "fscore": 0.999,
+      "align_deg": 210
+    }
+  },
+  {
+    "key": "3D_Dollhouse_Lamp",
+    "name": "Table Lamp",
+    "type": "Home \u00b7 decor",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 95.5,
+      "extract_seconds": 34.5,
+      "total_seconds": 130.0,
+      "peak_vram_gb": 17.8,
+      "vertices": 115681,
+      "triangles": 188304,
+      "glb_bytes": 7722876,
+      "glb_mb": 7.72
+    },
+    "glb": "3D_Dollhouse_Lamp.glb",
+    "metric": {
+      "chamfer": 12.07,
+      "fscore": 1.0,
+      "align_deg": 90
+    }
+  },
+  {
+    "key": "Smith_Hawken_Woven_BasketTray_Organizer_with_3_Compartments_95_x_9_x_13",
+    "name": "Woven Basket Tray",
+    "type": "Home \u00b7 storage",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 680.2,
+      "extract_seconds": 60.8,
+      "total_seconds": 741.0,
+      "peak_vram_gb": 20.9,
+      "vertices": 170093,
+      "triangles": 196424,
+      "glb_bytes": 12260344,
+      "glb_mb": 12.26
+    },
+    "glb": "Smith_Hawken_Woven_BasketTray_Organizer_with_3_Compartments_95_x_9_x_13.glb",
+    "metric": {
+      "chamfer": 47.66,
+      "fscore": 0.717,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Jansport_School_Backpack_Blue_Streak",
+    "name": "JanSport Backpack",
+    "type": "Bag",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 456.5,
+      "extract_seconds": 49.4,
+      "total_seconds": 505.9,
+      "peak_vram_gb": 19.8,
+      "vertices": 129508,
+      "triangles": 193582,
+      "glb_bytes": 8384652,
+      "glb_mb": 8.38
+    },
+    "glb": "Jansport_School_Backpack_Blue_Streak.glb",
+    "metric": {
+      "chamfer": 51.97,
+      "fscore": 0.638,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Olive_Kids_Dinosaur_Land_Sidekick_Backpack",
+    "name": "Kids Dino Backpack",
+    "type": "Bag",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 421.4,
+      "extract_seconds": 51.4,
+      "total_seconds": 472.8,
+      "peak_vram_gb": 19.9,
+      "vertices": 122581,
+      "triangles": 194192,
+      "glb_bytes": 8195364,
+      "glb_mb": 8.2
+    },
+    "glb": "Olive_Kids_Dinosaur_Land_Sidekick_Backpack.glb",
+    "metric": {
+      "chamfer": 23.84,
+      "fscore": 0.975,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Olive_Kids_Game_On_Pack_n_Snack",
+    "name": "Kids Lunch Bag",
+    "type": "Bag",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 419.2,
+      "extract_seconds": 62.6,
+      "total_seconds": 481.8,
+      "peak_vram_gb": 19.4,
+      "vertices": 122502,
+      "triangles": 191842,
+      "glb_bytes": 9883288,
+      "glb_mb": 9.88
+    },
+    "glb": "Olive_Kids_Game_On_Pack_n_Snack.glb",
+    "metric": {
+      "chamfer": 44.13,
+      "fscore": 0.707,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "Schleich_Spinosaurus_Action_Figure",
+    "name": "Schleich Spinosaurus",
+    "type": "Toy \u00b7 animal",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 130.1,
+      "extract_seconds": 55.6,
+      "total_seconds": 185.7,
+      "peak_vram_gb": 18.4,
+      "vertices": 114279,
+      "triangles": 192537,
+      "glb_bytes": 7963028,
+      "glb_mb": 7.96
+    },
+    "glb": "Schleich_Spinosaurus_Action_Figure.glb",
+    "metric": {
+      "chamfer": 48.5,
+      "fscore": 0.68,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "Schleich_African_Black_Rhino",
+    "name": "Schleich Rhino",
+    "type": "Toy \u00b7 animal",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 144.9,
+      "extract_seconds": 49.7,
+      "total_seconds": 194.6,
+      "peak_vram_gb": 17.4,
+      "vertices": 113162,
+      "triangles": 189950,
+      "glb_bytes": 8644780,
+      "glb_mb": 8.64
+    },
+    "glb": "Schleich_African_Black_Rhino.glb",
+    "metric": {
+      "chamfer": 19.89,
+      "fscore": 0.995,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "Schleich_Bald_Eagle",
+    "name": "Schleich Eagle",
+    "type": "Toy \u00b7 animal",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 310.0,
+      "extract_seconds": 72.8,
+      "total_seconds": 382.8,
+      "peak_vram_gb": 18.0,
+      "vertices": 111654,
+      "triangles": 189897,
+      "glb_bytes": 8298368,
+      "glb_mb": 8.3
+    },
+    "glb": "Schleich_Bald_Eagle.glb",
+    "metric": {
+      "chamfer": 20.03,
+      "fscore": 0.982,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "Perricone_MD_Vitamin_C_Ester_Serum",
+    "name": "Vitamin C Serum (boxed)",
+    "type": "Beauty \u00b7 CPG",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 328.3,
+      "extract_seconds": 46.6,
+      "total_seconds": 374.9,
+      "peak_vram_gb": 18.5,
+      "vertices": 117501,
+      "triangles": 193808,
+      "glb_bytes": 7945076,
+      "glb_mb": 7.95
+    },
+    "glb": "Perricone_MD_Vitamin_C_Ester_Serum.glb",
+    "metric": {
+      "chamfer": 27.61,
+      "fscore": 0.998,
+      "align_deg": 210
+    }
+  },
+  {
+    "key": "Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion",
+    "name": "Curl Lotion",
+    "type": "Beauty \u00b7 CPG",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 151.3,
+      "extract_seconds": 41.5,
+      "total_seconds": 192.8,
+      "peak_vram_gb": 18.0,
+      "vertices": 107538,
+      "triangles": 187662,
+      "glb_bytes": 7079852,
+      "glb_mb": 7.08
+    },
+    "glb": "Marc_Anthony_True_Professional_Strictly_Curls_Curl_Defining_Lotion.glb",
+    "metric": {
+      "chamfer": 11.45,
+      "fscore": 0.986,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Orbit_Bubblemint_Mini_Bottle_6_ct",
+    "name": "Orbit Gum",
+    "type": "Beauty \u00b7 CPG",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 425.4,
+      "extract_seconds": 55.0,
+      "total_seconds": 480.4,
+      "peak_vram_gb": 21.0,
+      "vertices": 141794,
+      "triangles": 196786,
+      "glb_bytes": 10002308,
+      "glb_mb": 10.0
+    },
+    "glb": "Orbit_Bubblemint_Mini_Bottle_6_ct.glb",
+    "metric": {
+      "chamfer": 40.83,
+      "fscore": 0.762,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "Womens_Cloud_Logo_Authentic_Original_Boat_Shoe_in_Black_Supersoft_cZR022qFI4k",
+    "name": "Black Boat Shoe",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 211.2,
+      "extract_seconds": 39.4,
+      "total_seconds": 250.6,
+      "peak_vram_gb": 17.0,
+      "vertices": 110485,
+      "triangles": 186572,
+      "glb_bytes": 7473516,
+      "glb_mb": 7.47
+    },
+    "glb": "Womens_Cloud_Logo_Authentic_Original_Boat_Shoe_in_Black_Supersoft_cZR022qFI4k.glb",
+    "metric": {
+      "chamfer": 27.01,
+      "fscore": 0.902,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "Womens_Hikerfish_Boot_in_Linen_Leather_Sparkle_Suede_imlP8VkwqIH",
+    "name": "Hikerfish Linen Boot",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 684.4,
+      "extract_seconds": 68.8,
+      "total_seconds": 753.1,
+      "peak_vram_gb": 25.8,
+      "vertices": 157602,
+      "triangles": 192969,
+      "glb_bytes": 11559540,
+      "glb_mb": 11.56
+    },
+    "glb": "Womens_Hikerfish_Boot_in_Linen_Leather_Sparkle_Suede_imlP8VkwqIH.glb",
+    "metric": {
+      "chamfer": 26.34,
+      "fscore": 0.956,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Womens_Betty_Chukka_Boot_in_Navy_aEE8OqvMII4",
+    "name": "Betty Navy Chukka",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 397.1,
+      "extract_seconds": 62.2,
+      "total_seconds": 459.3,
+      "peak_vram_gb": 19.6,
+      "vertices": 127251,
+      "triangles": 193000,
+      "glb_bytes": 9674052,
+      "glb_mb": 9.67
+    },
+    "glb": "Womens_Betty_Chukka_Boot_in_Navy_aEE8OqvMII4.glb",
+    "metric": {
+      "chamfer": 27.97,
+      "fscore": 0.905,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "Timberland_Womens_Waterproof_Nellie_Chukka_Double",
+    "name": "Timberland Nellie Chukka",
+    "type": "Footwear",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 219.0,
+      "extract_seconds": 51.6,
+      "total_seconds": 270.7,
+      "peak_vram_gb": 18.7,
+      "vertices": 121239,
+      "triangles": 186767,
+      "glb_bytes": 8177872,
+      "glb_mb": 8.18
+    },
+    "glb": "Timberland_Womens_Waterproof_Nellie_Chukka_Double.glb",
+    "metric": {
+      "chamfer": 36.43,
+      "fscore": 0.861,
+      "align_deg": 330
+    }
+  },
+  {
+    "key": "Razer_Taipan_White_Ambidextrous_Gaming_Mouse",
+    "name": "Razer Taipan (White)",
+    "type": "Electronics \u00b7 mouse",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 143.2,
+      "extract_seconds": 59.5,
+      "total_seconds": 202.7,
+      "peak_vram_gb": 18.0,
+      "vertices": 124406,
+      "triangles": 199644,
+      "glb_bytes": 7934676,
+      "glb_mb": 7.93
+    },
+    "glb": "Razer_Taipan_White_Ambidextrous_Gaming_Mouse.glb",
+    "metric": {
+      "chamfer": 29.35,
+      "fscore": 0.933,
+      "align_deg": 90
+    }
+  },
+  {
+    "key": "Razer_Abyssus_Ambidextrous_Gaming_Mouse",
+    "name": "Razer Abyssus Mouse",
+    "type": "Electronics \u00b7 mouse",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 186.6,
+      "extract_seconds": 44.0,
+      "total_seconds": 230.7,
+      "peak_vram_gb": 17.6,
+      "vertices": 130340,
+      "triangles": 191800,
+      "glb_bytes": 8918856,
+      "glb_mb": 8.92
+    },
+    "glb": "Razer_Abyssus_Ambidextrous_Gaming_Mouse.glb",
+    "metric": {
+      "chamfer": 33.16,
+      "fscore": 0.898,
+      "align_deg": 180
+    }
+  },
+  {
+    "key": "Razer_BlackWidow_Ultimate_2014_Mechanical_Gaming_Keyboard",
+    "name": "Razer BlackWidow Keyboard",
+    "type": "Electronics \u00b7 keyboard",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 137.9,
+      "extract_seconds": 58.6,
+      "total_seconds": 196.6,
+      "peak_vram_gb": 17.8,
+      "vertices": 141561,
+      "triangles": 192422,
+      "glb_bytes": 9598052,
+      "glb_mb": 9.6
+    },
+    "glb": "Razer_BlackWidow_Ultimate_2014_Mechanical_Gaming_Keyboard.glb",
+    "metric": {
+      "chamfer": 14.83,
+      "fscore": 0.997,
+      "align_deg": 180
+    }
+  },
+  {
+    "key": "Star_Wars_Rogue_Squadron_Nintendo_64",
+    "name": "N64 Cartridge",
+    "type": "Electronics \u00b7 console",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 168.6,
+      "extract_seconds": 86.2,
+      "total_seconds": 254.8,
+      "peak_vram_gb": 17.6,
+      "vertices": 136158,
+      "triangles": 190036,
+      "glb_bytes": 8971992,
+      "glb_mb": 8.97
+    },
+    "glb": "Star_Wars_Rogue_Squadron_Nintendo_64.glb",
+    "metric": {
+      "chamfer": 18.87,
+      "fscore": 0.99,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Threshold_Porcelain_Pitcher_White",
+    "name": "Porcelain Pitcher",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 533.4,
+      "extract_seconds": 63.3,
+      "total_seconds": 596.7,
+      "peak_vram_gb": 20.2,
+      "vertices": 157482,
+      "triangles": 199769,
+      "glb_bytes": 8890244,
+      "glb_mb": 8.89
+    },
+    "glb": "Threshold_Porcelain_Pitcher_White.glb",
+    "metric": {
+      "chamfer": 31.01,
+      "fscore": 0.925,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Threshold_Bead_Cereal_Bowl_White",
+    "name": "Cereal Bowl",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 450.6,
+      "extract_seconds": 48.5,
+      "total_seconds": 499.1,
+      "peak_vram_gb": 19.4,
+      "vertices": 105688,
+      "triangles": 193706,
+      "glb_bytes": 7004752,
+      "glb_mb": 7.0
+    },
+    "glb": "Threshold_Bead_Cereal_Bowl_White.glb",
+    "metric": {
+      "chamfer": 49.37,
+      "fscore": 0.658,
+      "align_deg": 300
+    }
+  },
+  {
+    "key": "Now_Designs_Bowl_Akita_Black",
+    "name": "Akita Black Bowl",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 470.9,
+      "extract_seconds": 46.8,
+      "total_seconds": 517.7,
+      "peak_vram_gb": 19.1,
+      "vertices": 108958,
+      "triangles": 190650,
+      "glb_bytes": 8042620,
+      "glb_mb": 8.04
+    },
+    "glb": "Now_Designs_Bowl_Akita_Black.glb",
+    "metric": {
+      "chamfer": 25.73,
+      "fscore": 0.959,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Sea_to_Summit_Xl_Bowl",
+    "name": "Collapsible Bowl",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 293.1,
+      "extract_seconds": 267.4,
+      "total_seconds": 560.5,
+      "peak_vram_gb": 18.8,
+      "vertices": 116357,
+      "triangles": 193196,
+      "glb_bytes": 7551008,
+      "glb_mb": 7.55
+    },
+    "glb": "Sea_to_Summit_Xl_Bowl.glb",
+    "metric": {
+      "chamfer": 15.52,
+      "fscore": 1.0,
+      "align_deg": 120
+    }
+  },
+  {
+    "key": "Threshold_Dinner_Plate_Square_Rim_White_Porcelain",
+    "name": "Square Dinner Plate",
+    "type": "Kitchenware",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 278.3,
+      "extract_seconds": 71.1,
+      "total_seconds": 349.4,
+      "peak_vram_gb": 18.4,
+      "vertices": 112049,
+      "triangles": 196925,
+      "glb_bytes": 7292228,
+      "glb_mb": 7.29
+    },
+    "glb": "Threshold_Dinner_Plate_Square_Rim_White_Porcelain.glb",
+    "metric": {
+      "chamfer": 15.6,
+      "fscore": 1.0,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "Top_Paw_Dog_Bowl_Blue_Paw_Bone_Ceramic_25_fl_oz_total",
+    "name": "Ceramic Dog Bowl",
+    "type": "Home \u00b7 pet",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 343.3,
+      "extract_seconds": 55.4,
+      "total_seconds": 398.7,
+      "peak_vram_gb": 18.5,
+      "vertices": 110592,
+      "triangles": 196150,
+      "glb_bytes": 7141000,
+      "glb_mb": 7.14
+    },
+    "glb": "Top_Paw_Dog_Bowl_Blue_Paw_Bone_Ceramic_25_fl_oz_total.glb",
+    "metric": {
+      "chamfer": 41.59,
+      "fscore": 0.743,
+      "align_deg": 90
+    }
+  },
+  {
+    "key": "Hefty_Waste_Basket_Decorative_Bronze_85_liter",
+    "name": "Bronze Waste Basket",
+    "type": "Home \u00b7 storage",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 548.4,
+      "extract_seconds": 50.9,
+      "total_seconds": 599.3,
+      "peak_vram_gb": 20.1,
+      "vertices": 113730,
+      "triangles": 194160,
+      "glb_bytes": 8823276,
+      "glb_mb": 8.82
+    },
+    "glb": "Hefty_Waste_Basket_Decorative_Bronze_85_liter.glb",
+    "metric": {
+      "chamfer": 39.65,
+      "fscore": 0.873,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Ecoforms_Planter_Pot_GP12AAvocado",
+    "name": "Ecoforms Planter (Avocado)",
+    "type": "Home \u00b7 decor",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 582.4,
+      "extract_seconds": 47.6,
+      "total_seconds": 630.1,
+      "peak_vram_gb": 20.1,
+      "vertices": 108303,
+      "triangles": 197528,
+      "glb_bytes": 7243592,
+      "glb_mb": 7.24
+    },
+    "glb": "Ecoforms_Planter_Pot_GP12AAvocado.glb",
+    "metric": {
+      "chamfer": 33.85,
+      "fscore": 0.877,
+      "align_deg": 120
+    }
+  },
+  {
+    "key": "Design_Ideas_Drawer_Store_Organizer",
+    "name": "Drawer Organizer",
+    "type": "Home \u00b7 storage",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 180.8,
+      "extract_seconds": 43.1,
+      "total_seconds": 223.9,
+      "peak_vram_gb": 18.7,
+      "vertices": 105007,
+      "triangles": 191340,
+      "glb_bytes": 7623716,
+      "glb_mb": 7.62
+    },
+    "glb": "Design_Ideas_Drawer_Store_Organizer.glb",
+    "metric": {
+      "chamfer": 11.74,
+      "fscore": 1.0,
+      "align_deg": 300
+    }
+  },
+  {
+    "key": "Spritz_Easter_Basket_Plastic_Teal",
+    "name": "Teal Basket",
+    "type": "Home \u00b7 storage",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 586.8,
+      "extract_seconds": 44.4,
+      "total_seconds": 631.2,
+      "peak_vram_gb": 20.9,
+      "vertices": 116743,
+      "triangles": 194474,
+      "glb_bytes": 7078572,
+      "glb_mb": 7.08
+    },
+    "glb": "Spritz_Easter_Basket_Plastic_Teal.glb",
+    "metric": {
+      "chamfer": 45.38,
+      "fscore": 0.677,
+      "align_deg": 210
+    }
+  },
+  {
+    "key": "Squirt_Strain_Fruit_Basket",
+    "name": "Fruit Basket",
+    "type": "Home \u00b7 storage",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 450.4,
+      "extract_seconds": 61.9,
+      "total_seconds": 512.3,
+      "peak_vram_gb": 19.8,
+      "vertices": 105886,
+      "triangles": 186521,
+      "glb_bytes": 7267480,
+      "glb_mb": 7.27
+    },
+    "glb": "Squirt_Strain_Fruit_Basket.glb",
+    "metric": {
+      "chamfer": 40.65,
+      "fscore": 0.803,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "Olive_Kids_Birdie_Sidekick_Backpack",
+    "name": "Kids Birdie Backpack",
+    "type": "Bag",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 643.6,
+      "extract_seconds": 60.0,
+      "total_seconds": 703.6,
+      "peak_vram_gb": 23.8,
+      "vertices": 139422,
+      "triangles": 196301,
+      "glb_bytes": 9742860,
+      "glb_mb": 9.74
+    },
+    "glb": "Olive_Kids_Birdie_Sidekick_Backpack.glb",
+    "metric": {
+      "chamfer": 43.64,
       "fscore": 0.715,
+      "align_deg": 30
+    }
+  },
+  {
+    "key": "Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack",
+    "name": "Kids Trains Backpack",
+    "type": "Bag",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 416.4,
+      "extract_seconds": 54.2,
+      "total_seconds": 470.6,
+      "peak_vram_gb": 20.0,
+      "vertices": 136224,
+      "triangles": 198610,
+      "glb_bytes": 9544908,
+      "glb_mb": 9.54
+    },
+    "glb": "Olive_Kids_Trains_Planes_Trucks_Bogo_Backpack.glb",
+    "metric": {
+      "chamfer": 60.37,
+      "fscore": 0.474,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Schleich_Allosaurus",
+    "name": "Schleich Allosaurus",
+    "type": "Toy \u00b7 animal",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 120.6,
+      "extract_seconds": 38.9,
+      "total_seconds": 159.6,
+      "peak_vram_gb": 18.3,
+      "vertices": 113085,
+      "triangles": 187552,
+      "glb_bytes": 7871156,
+      "glb_mb": 7.87
+    },
+    "glb": "Schleich_Allosaurus.glb",
+    "metric": {
+      "chamfer": 50.27,
+      "fscore": 0.629,
+      "align_deg": 300
+    }
+  },
+  {
+    "key": "Schleich_Hereford_Bull",
+    "name": "Schleich Bull",
+    "type": "Toy \u00b7 animal",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 182.4,
+      "extract_seconds": 84.7,
+      "total_seconds": 267.0,
+      "peak_vram_gb": 17.5,
+      "vertices": 110948,
+      "triangles": 192903,
+      "glb_bytes": 8068720,
+      "glb_mb": 8.07
+    },
+    "glb": "Schleich_Hereford_Bull.glb",
+    "metric": {
+      "chamfer": 28.73,
+      "fscore": 0.96,
+      "align_deg": 0
+    }
+  },
+  {
+    "key": "Schleich_S_Bayala_Unicorn_70432",
+    "name": "Schleich Unicorn",
+    "type": "Toy \u00b7 animal",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 175.5,
+      "extract_seconds": 36.8,
+      "total_seconds": 212.3,
+      "peak_vram_gb": 17.7,
+      "vertices": 113384,
+      "triangles": 185648,
+      "glb_bytes": 7246048,
+      "glb_mb": 7.25
+    },
+    "glb": "Schleich_S_Bayala_Unicorn_70432.glb",
+    "metric": {
+      "chamfer": 34.74,
+      "fscore": 0.886,
+      "align_deg": 300
+    }
+  },
+  {
+    "key": "Great_Dinos_Triceratops_Toy",
+    "name": "Android Figure",
+    "type": "Toy \u00b7 figure",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 317.7,
+      "extract_seconds": 59.8,
+      "total_seconds": 377.6,
+      "peak_vram_gb": 18.9,
+      "vertices": 114047,
+      "triangles": 197702,
+      "glb_bytes": 8731628,
+      "glb_mb": 8.73
+    },
+    "glb": "Great_Dinos_Triceratops_Toy.glb",
+    "metric": {
+      "chamfer": 23.85,
+      "fscore": 0.942,
+      "align_deg": 180
+    }
+  },
+  {
+    "key": "Perricone_MD_Nutritive_Cleanser",
+    "name": "Perricone Cleanser",
+    "type": "Beauty \u00b7 CPG",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 238.5,
+      "extract_seconds": 58.2,
+      "total_seconds": 296.8,
+      "peak_vram_gb": 18.3,
+      "vertices": 103642,
+      "triangles": 187758,
+      "glb_bytes": 6900828,
+      "glb_mb": 6.9
+    },
+    "glb": "Perricone_MD_Nutritive_Cleanser.glb",
+    "metric": {
+      "chamfer": 23.85,
+      "fscore": 0.999,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "Perricone_MD_Omega_3_Supplements",
+    "name": "Perricone Omega-3",
+    "type": "Beauty \u00b7 CPG",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 352.2,
+      "extract_seconds": 38.6,
+      "total_seconds": 390.8,
+      "peak_vram_gb": 18.4,
+      "vertices": 107882,
+      "triangles": 184962,
+      "glb_bytes": 6971996,
+      "glb_mb": 6.97
+    },
+    "glb": "Perricone_MD_Omega_3_Supplements.glb",
+    "metric": {
+      "chamfer": 15.65,
+      "fscore": 1.0,
+      "align_deg": 270
+    }
+  },
+  {
+    "key": "Perricone_MD_The_Cold_Plasma_Face_Eyes_Duo",
+    "name": "Perricone Cold Plasma Duo",
+    "type": "Beauty \u00b7 CPG",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 397.2,
+      "extract_seconds": 35.7,
+      "total_seconds": 433.0,
+      "peak_vram_gb": 19.5,
+      "vertices": 105986,
+      "triangles": 193412,
+      "glb_bytes": 7669060,
+      "glb_mb": 7.67
+    },
+    "glb": "Perricone_MD_The_Cold_Plasma_Face_Eyes_Duo.glb",
+    "metric": {
+      "chamfer": 38.38,
+      "fscore": 0.725,
+      "align_deg": 300
+    }
+  },
+  {
+    "key": "Perricone_MD_Photo_Plasma",
+    "name": "Perricone Photo Plasma",
+    "type": "Beauty \u00b7 CPG",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 277.0,
+      "extract_seconds": 37.0,
+      "total_seconds": 314.0,
+      "peak_vram_gb": 18.6,
+      "vertices": 101365,
+      "triangles": 186384,
+      "glb_bytes": 7076816,
+      "glb_mb": 7.08
+    },
+    "glb": "Perricone_MD_Photo_Plasma.glb",
+    "metric": {
+      "chamfer": 33.93,
+      "fscore": 0.894,
+      "align_deg": 60
+    }
+  },
+  {
+    "key": "Perricone_MD_Vitamin_C_Ester_15",
+    "name": "Perricone Vitamin C",
+    "type": "Beauty \u00b7 CPG",
+    "views": 5,
+    "stats": {
+      "gen_seconds": 275.0,
+      "extract_seconds": 43.4,
+      "total_seconds": 318.4,
+      "peak_vram_gb": 18.3,
+      "vertices": 123098,
+      "triangles": 194757,
+      "glb_bytes": 8075632,
+      "glb_mb": 8.08
+    },
+    "glb": "Perricone_MD_Vitamin_C_Ester_15.glb",
+    "metric": {
+      "chamfer": 23.48,
+      "fscore": 1.0,
       "align_deg": 30
     }
   }
