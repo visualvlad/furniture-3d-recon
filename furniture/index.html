@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Furniture reconstruction test · ReconViaGen × TRELLIS.2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Montserrat:wght@400;500;600;700&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/@google/model-viewer@4.0.0/dist/model-viewer.min.js"></script>
+<style>
+:root{
+  --bg:#eaeae0; --white:#f4f4ec; --border:#d0d0c8; --border-dark:#a8a8a0;
+  --text:#0a0a08; --muted:#64645c; --pill:#dcdcd4;
+  --accent:#FB5E01; --accent-grad:linear-gradient(135deg,#F0280D 0%,#FB5E01 100%);
+  --magma-grad:linear-gradient(135deg,#F00D33 0%,#FB5E01 50%,#F4B71D 100%);
+  --grid-dot:rgba(0,0,0,0.045); --ink-frame:#0a0a08;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.6;position:relative;-webkit-font-smoothing:antialiased}
+body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(circle,var(--grid-dot) 1px,transparent 1px);background-size:28px 28px;pointer-events:none;z-index:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.display{font-family:'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;line-height:.97}
+.mono{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em}
+em{font-style:normal;color:var(--muted)}
+
+/* hero */
+header{padding:88px 0 40px}
+.eyebrow{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.11em;font-size:11px;color:var(--accent);margin-bottom:22px}
+h1.display{font-size:clamp(38px,6vw,68px);font-weight:500;max-width:18ch;margin-bottom:26px}
+.lede{font-size:15px;line-height:1.65;max-width:62ch;color:#1a1a16}
+.lede a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(251,94,1,.35)}
+.method{margin-top:22px;font-size:12px;color:var(--muted);max-width:64ch}
+
+/* summary strip */
+.summary{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin:40px 0 8px;background:var(--white)}
+.summary .cell{flex:1 1 0;min-width:150px;padding:20px 22px;border-right:1px solid var(--border)}
+.summary .cell:last-child{border-right:none}
+.summary .k{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);margin-bottom:8px}
+.summary .v{font-family:'Bricolage Grotesque',sans-serif;font-size:30px;font-weight:500;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.summary .v small{font-size:.5em;color:var(--muted);font-weight:400;margin-left:3px}
+
+/* model cards */
+#cards{padding:24px 0 40px;display:flex;flex-direction:column;gap:28px}
+.card{background:var(--white);border:1px solid var(--border);border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1.15fr 1fr}
+@media(max-width:820px){.card{grid-template-columns:1fr}}
+.viewer-wrap{position:relative;background:#ffffff;min-height:440px;border-right:1px solid var(--border)}
+@media(max-width:820px){.viewer-wrap{border-right:none;border-bottom:1px solid var(--border)}}
+model-viewer{width:100%;height:100%;min-height:440px;--poster-color:#ffffff;background:#ffffff}
+.viewer-tag{position:absolute;top:14px;left:14px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:#0a0a08;background:rgba(255,255,255,.72);border:1px solid var(--border);padding:5px 10px;border-radius:3px;backdrop-filter:blur(6px)}
+.viewer-hint{position:absolute;bottom:12px;left:14px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:9px;color:var(--muted)}
+.panel{padding:26px 28px;display:flex;flex-direction:column;gap:18px}
+.badge{align-self:flex-start;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:9.5px;color:#fff;background:var(--accent-grad);padding:5px 11px;border-radius:3px}
+.ptitle{font-family:'Montserrat';font-size:21px;font-weight:600;letter-spacing:-.015em;line-height:1.18}
+.psource{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:10px;color:var(--muted)}
+.psource a{color:var(--accent);text-decoration:none}
+.blurb{font-size:12.5px;color:#33332c;line-height:1.55}
+.rows{display:grid;grid-template-columns:1fr 1fr;gap:18px 26px;border-top:1px solid var(--border);padding-top:18px}
+.col h4{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:9.5px;color:var(--accent);margin-bottom:10px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:3px 0;font-size:12px}
+.row .l{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.05em;font-size:10px;color:var(--muted)}
+.row .r{font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.row .r small{color:var(--muted);font-weight:400;margin-left:2px}
+.inputs{border-top:1px solid var(--border);padding-top:16px}
+.inputs .lab{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:9.5px;color:var(--muted);margin-bottom:10px}
+.thumbs{display:flex;gap:8px;flex-wrap:wrap}
+.thumbs img{width:62px;height:62px;object-fit:contain;background:#fff;border:1px solid var(--border);border-radius:6px}
+
+footer{border-top:1px solid var(--border);margin-top:24px;padding:40px 0 80px}
+.foot{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);line-height:2}
+.loading{padding:60px 0;text-align:center;color:var(--muted);font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:11px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Reconstruction test · ReconViaGen × TRELLIS.2</div>
+    <h1 class="display">Five furniture products, <em>five render settings.</em></h1>
+    <p class="lede">Real product photos from retail listings, fed into our deployed image-to-3D model (ReconViaGen for sparse-view structure, TRELLIS.2 for shape and PBR texture). Each product ran with a different configuration, from a fast 512 preview to a high-fidelity 1536 cascade. Drag to rotate every model below; each card carries the exact settings and what they cost.</p>
+    <p class="method">Inputs are unmodified catalogue photos (1 to 4 views per product). The model removes backgrounds itself and infers the sides it never sees. Everything rendered on a single H100.</p>
+
+    <div class="summary" id="summary"></div>
+  </header>
+
+  <main id="cards"><div class="loading">Loading models…</div></main>
+
+  <footer>
+    <div class="foot" id="foot">
+      Rendered on one NVIDIA H100 · ReconViaGen × TRELLIS.2 (v0.5)<br>
+      Sources: IKEA, Article · drag to rotate, scroll to zoom
+    </div>
+  </footer>
+</div>
+
+<script>
+const fmt = n => (n==null||n<0) ? '—' : n.toLocaleString('en-GB');
+const sec = s => s==null ? '—' : (s>=60 ? Math.floor(s/60)+'m '+Math.round(s%60)+'s' : Math.round(s)+'s');
+
+function card(m, i){
+  const s=m.settings, t=m.stats;
+  const idx=String(i+1).padStart(2,'0');
+  const thumbs=(m.inputs||[]).map(p=>`<img src="${p}" alt="input view" loading="lazy">`).join('');
+  return `
+  <div class="card">
+    <div class="viewer-wrap">
+      <div class="viewer-tag">Model ${idx} / ${m.label}</div>
+      <div class="viewer-hint">Drag to rotate</div>
+      <model-viewer src="models/${m.glb}" camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="22deg"
+        interaction-prompt="none" environment-image="../studio.hdr" tone-mapping="neutral" exposure="1.15"
+        shadow-intensity="1" shadow-softness="0.8"
+        camera-orbit="25deg 72deg 105%" camera-target="auto" loading="lazy" reveal="auto"></model-viewer>
+    </div>
+    <div class="panel">
+      <div class="badge">${m.label}</div>
+      <div class="ptitle">${m.product}</div>
+      <div class="psource">${m.brand} · <a href="${m.url}" target="_blank" rel="noopener">view listing ↗</a></div>
+      <div class="blurb">${m.blurb}</div>
+      <div class="rows">
+        <div class="col">
+          <h4>Settings</h4>
+          <div class="row"><span class="l">Resolution</span><span class="r">${s.pipeline_type}</span></div>
+          <div class="row"><span class="l">Steps / stage</span><span class="r">${s.sampling_steps}</span></div>
+          <div class="row"><span class="l">Guidance (ss/shape)</span><span class="r">${s.ss_guidance} / ${s.shape_guidance}</span></div>
+          <div class="row"><span class="l">Decimation</span><span class="r">${fmt(s.decimation_target)}<small> tris</small></span></div>
+          <div class="row"><span class="l">Texture</span><span class="r">${s.texture_size}²</span></div>
+          <div class="row"><span class="l">Input views</span><span class="r">${m.views}</span></div>
+        </div>
+        <div class="col">
+          <h4>Result</h4>
+          <div class="row"><span class="l">Generate</span><span class="r">${sec(t.gen_seconds)}</span></div>
+          <div class="row"><span class="l">Extract GLB</span><span class="r">${sec(t.extract_seconds)}</span></div>
+          <div class="row"><span class="l">Total</span><span class="r">${sec(t.total_seconds)}</span></div>
+          <div class="row"><span class="l">Peak VRAM</span><span class="r">${t.peak_vram_gb}<small> GB</small></span></div>
+          <div class="row"><span class="l">Triangles</span><span class="r">${fmt(t.triangles)}</span></div>
+          <div class="row"><span class="l">GLB size</span><span class="r">${t.glb_mb}<small> MB</small></span></div>
+        </div>
+      </div>
+      ${thumbs?`<div class="inputs"><div class="lab">Inputs · ${m.views} view${m.views>1?'s':''}</div><div class="thumbs">${thumbs}</div></div>`:''}
+    </div>
+  </div>`;
+}
+
+fetch('manifest.json').then(r=>r.json()).then(data=>{
+  // keep a stable display order
+  const order=['lamp','chair','table','sofa','sideboard'];
+  data.sort((a,b)=>order.indexOf(a.key)-order.indexOf(b.key));
+  document.getElementById('cards').innerHTML = data.map(card).join('');
+  // summary
+  const totT=data.reduce((s,m)=>s+(m.stats.total_seconds||0),0);
+  const vmin=Math.min(...data.map(m=>m.views)), vmax=Math.max(...data.map(m=>m.views));
+  const sz=data.reduce((s,m)=>s+(m.stats.glb_mb||0),0);
+  document.getElementById('summary').innerHTML=`
+    <div class="cell"><div class="k">Products</div><div class="v">${data.length}</div></div>
+    <div class="cell"><div class="k">Input views</div><div class="v">${vmin}–${vmax}</div></div>
+    <div class="cell"><div class="k">Total compute</div><div class="v">${Math.round(totT/60)}<small>min</small></div></div>
+    <div class="cell"><div class="k">Combined GLB</div><div class="v">${sz.toFixed(1)}<small>MB</small></div></div>
+    <div class="cell"><div class="k">GPU</div><div class="v" style="font-size:22px">H100</div></div>`;
+}).catch(e=>{document.getElementById('cards').innerHTML='<div class="loading">Could not load manifest.json — '+e+'</div>';});
+</script>
+</body>
+</html>
