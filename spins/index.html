@@ -1,31 +1,98 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>360 spin candidates · review before recon</title>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retail 360 spins → 3D · ReconViaGen × TRELLIS.2</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500&family=Montserrat:wght@400;500;600&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Montserrat:wght@400;500;600;700&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<script type="module" src="https://unpkg.com/@google/model-viewer@4.0.0/dist/model-viewer.min.js"></script>
 <style>
-:root{--bg:#eaeae0;--white:#f4f4ec;--border:#d0d0c8;--text:#0a0a08;--muted:#64645c;--accent:#FB5E01;--grid-dot:rgba(0,0,0,.045)}
+:root{--bg:#eaeae0;--white:#f4f4ec;--border:#d0d0c8;--text:#0a0a08;--muted:#64645c;--accent:#FB5E01;--accent-grad:linear-gradient(135deg,#F0280D 0%,#FB5E01 100%);--grid-dot:rgba(0,0,0,0.045)}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--text);font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.6;position:relative}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Montserrat',sans-serif;font-size:13px;line-height:1.6;position:relative;-webkit-font-smoothing:antialiased}
 body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(circle,var(--grid-dot) 1px,transparent 1px);background-size:28px 28px;pointer-events:none;z-index:0}
-.wrap{max-width:880px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
-header{padding:70px 0 18px}
-.eyebrow{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.11em;font-size:11px;color:var(--accent);margin-bottom:18px}
-h1{font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(34px,5vw,54px);font-weight:500;letter-spacing:-.03em;line-height:1;margin-bottom:20px}
-.lede{font-size:14.5px;line-height:1.62;max-width:62ch;color:#1a1a16}
-.note{font-size:12.5px;color:var(--muted);max-width:64ch;margin-top:14px;line-height:1.6}
-.note b{color:#1a1a16}
-.sheet{margin:34px 0 10px;border:1px solid var(--border);border-radius:14px;overflow:hidden;background:#fff}
-.sheet img{width:100%;display:block}
-footer{border-top:1px solid var(--border);margin-top:30px;padding:30px 0 80px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.display{font-family:'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;line-height:.97}
+em{font-style:normal;color:var(--muted)}
+header{padding:80px 0 26px}
+.eyebrow{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.11em;font-size:11px;color:var(--accent);margin-bottom:20px}
+h1.display{font-size:clamp(38px,6vw,64px);font-weight:500;margin-bottom:22px;max-width:15ch}
+.lede{font-size:15px;line-height:1.65;max-width:66ch;color:#1a1a16}
+.lede a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(251,94,1,.35)}
+.note{font-size:12.5px;color:var(--muted);max-width:66ch;margin-top:14px;line-height:1.6}
+#cards{padding:26px 0 40px;display:flex;flex-direction:column;gap:26px}
+.cat-h{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.11em;font-size:11px;color:var(--accent);padding:18px 0 2px;border-top:1px solid var(--border);margin-top:8px}
+.cat-h:first-child{border-top:none;margin-top:0}
+.card{background:var(--white);border:1px solid var(--border);border-radius:16px;overflow:hidden;display:grid;grid-template-columns:1.15fr 1fr}
+@media(max-width:820px){.card{grid-template-columns:1fr}}
+.viewer-wrap{position:relative;background:#fff;min-height:430px;border-right:1px solid var(--border)}
+@media(max-width:820px){.viewer-wrap{border-right:none;border-bottom:1px solid var(--border)}}
+model-viewer{width:100%;height:100%;min-height:430px;--poster-color:#fff;background:#fff}
+.viewer-tag{position:absolute;top:14px;left:14px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:#0a0a08;background:rgba(255,255,255,.72);border:1px solid var(--border);padding:5px 10px;border-radius:3px;backdrop-filter:blur(6px)}
+.viewer-hint{position:absolute;bottom:12px;left:14px;z-index:2;font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:9px;color:var(--muted)}
+.panel{padding:24px 26px;display:flex;flex-direction:column;gap:14px}
+.ptype{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:9.5px;color:#fff;background:var(--accent-grad);padding:4px 9px;border-radius:3px;align-self:flex-start}
+.ptitle{font-family:'Montserrat';font-size:20px;font-weight:600;letter-spacing:-.015em;line-height:1.18}
+.psource{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;font-size:10px;color:var(--muted)}
+.rows{display:grid;grid-template-columns:1fr 1fr;gap:6px 26px;border-top:1px solid var(--border);padding-top:14px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:3px 0;font-size:12px}
+.row .l{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.05em;font-size:10px;color:var(--muted)}
+.row .r{font-weight:600;font-variant-numeric:tabular-nums;text-align:right}
+.row .r small{color:var(--muted);font-weight:400;margin-left:2px}
+.inputs{border-top:1px solid var(--border);padding-top:14px}
+.inputs .lab{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:9px;color:var(--muted);margin-bottom:9px}
+.thumbs{display:flex;gap:7px;flex-wrap:wrap}
+.thumbs img{width:52px;height:52px;object-fit:contain;background:#fff;border:1px solid var(--border);border-radius:6px}
+footer{border-top:1px solid var(--border);margin-top:24px;padding:36px 0 80px}
 .foot{font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.09em;font-size:10px;color:var(--muted);line-height:2}
-</style></head><body><div class="wrap">
-<header>
-  <div class="eyebrow">360 spin candidates · review before recon</div>
-  <h1>Real spins, <span style="color:var(--muted)">five views each.</span></h1>
-  <p class="lede">Candidate inputs for the next reconstruction round — pulled from real photographic 360° turntable spins, six evenly-spaced frames each. One fixed object, angle-only variation: identity-consistent multi-view by construction. Nothing here has been reconstructed yet — this is the sign-off step.</p>
-  <p class="note"><b>The honest sourcing picture:</b> mainstream retail storefronts have largely dropped drag-spins (Zappos, Reebok = static galleries now) or lock them behind video / bot-walls (James Allen, Home Depot, West Elm). Homeware spins came up empty for *photography* (only CGI). So these are real-product photographic spins hosted on spin-vendor demo CDNs (Sirv, Magic360, WebRotate) and turntable-studio portfolios — real turntables of real rings, bags, shoes and outdoor furniture. <b>Coverage: jewellery, bags, footwear, garden, bikes and industrial.</b> Only soft furnishings and homeware are true blanks — no photographic spin exists to extract there (those categories have moved to CGI/3D configurators).</p>
-</header>
-<div class="sheet"><img src="_overview.jpg" alt="360 spin frame candidates"></div>
-<footer><div class="foot">16 products · 6 frames each · jewellery + bags + footwear + garden + bikes + industrial · reconstructing after the GSO batch</div></footer>
-</div></body></html>
+.loading{padding:60px 0;text-align:center;color:var(--muted);font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:.1em;font-size:11px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Retail 360 spins → 3D · ReconViaGen × TRELLIS.2</div>
+    <h1 class="display">Real spins, <em>real 3D.</em></h1>
+    <p class="lede">Real photographic 360° turntable spins of real products — six evenly-spaced frames each, fed straight to our deployed model. One fixed object, angle-only variation: identity-consistent multi-view by construction, the thing scraped retail listings could never give us. Drag any model to rotate.</p>
+    <p class="note">Frames came from real-product spins hosted on spin-vendor demo CDNs (Sirv, Magic360, WebRotate) and a 360-studio portfolio — mainstream retail storefronts have largely dropped extractable drag-spins (Amazon killed them; most others bot-wall or serve video). No ground-truth 3D exists for these, so this is a qualitative read — input vs reconstruction.</p>
+  </header>
+  <main id="cards"><div class="loading">Loading models…</div></main>
+  <footer>
+    <div class="foot" id="foot">16 real-product spins · 6 frames each · reconstructed on one NVIDIA H100</div>
+  </footer>
+</div>
+<script>
+const fmt=n=>(n==null||n<0)?'—':n.toLocaleString('en-GB');
+const sec=s=>s==null?'—':(s>=60?Math.floor(s/60)+'m '+Math.round(s%60)+'s':Math.round(s)+'s');
+const ORDER=['Jewellery','Bags','Footwear','Garden','Bikes','Industrial'];
+function card(m){const t=m.stats||{};
+ const thumbs=Array.from({length:m.views||0},(_,i)=>`<img src="inputs/${m.key}/f${i}.jpg" alt="spin frame" loading="lazy">`).join('');
+ return `<div class="card"><div class="viewer-wrap"><div class="viewer-tag">${m.name}</div><div class="viewer-hint">Drag to rotate</div>
+  <model-viewer src="recon/${m.key}.glb" camera-controls environment-image="../studio.hdr" camera-target="auto" loading="lazy" reveal="auto"></model-viewer></div>
+  <div class="panel">
+   <span class="ptype">${m.category}</span>
+   <div class="ptitle">${m.name}</div>
+   <div class="psource">${(m.key.split('_').slice(-1)[0]||'').toUpperCase()} · real 360 spin</div>
+   <div class="rows">
+    <div class="row"><span class="l">Generate</span><span class="r">${sec(t.gen_seconds)}</span></div>
+    <div class="row"><span class="l">Triangles</span><span class="r">${fmt(t.triangles)}</span></div>
+    <div class="row"><span class="l">Extract</span><span class="r">${sec(t.extract_seconds)}</span></div>
+    <div class="row"><span class="l">GLB size</span><span class="r">${t.glb_mb}<small> MB</small></span></div>
+    <div class="row"><span class="l">Total</span><span class="r">${sec(t.total_seconds)}</span></div>
+    <div class="row"><span class="l">Peak VRAM</span><span class="r">${t.peak_vram_gb}<small> GB</small></span></div>
+   </div>
+   <div class="inputs"><div class="lab">Input · ${m.views} spin frames</div><div class="thumbs">${thumbs}</div></div>
+  </div></div>`;}
+fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(data=>{
+ data.sort((a,b)=>(ORDER.indexOf(a.category)-ORDER.indexOf(b.category)));
+ let html='',cur='';
+ data.forEach(m=>{ if(m.category!==cur){cur=m.category; html+=`<div class="cat-h">${cur}</div>`;} html+=card(m); });
+ document.getElementById('cards').innerHTML=html;
+ document.getElementById('foot').innerHTML=`${data.length} real-product spins · 6 frames each · ${ORDER.filter(c=>data.some(m=>m.category===c)).length} categories · reconstructed on one NVIDIA H100`;
+}).catch(e=>{document.getElementById('cards').innerHTML='<div class="loading">manifest error — '+e+'</div>';});
+</script>
+<script src="../viewer.js"></script>
+</body>
+</html>
