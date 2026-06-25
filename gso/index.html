@@ -113,5 +113,6 @@ fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(data=>{
   document.getElementById('foot').innerHTML=`${data.length} held-out objects · mean F-score@3% ${avg} · inputs are open3d turntable renders of the GSO source mesh · reconstructed on one NVIDIA H100`;}
 }).catch(e=>{document.getElementById('cards').innerHTML='<div class="loading">manifest error — '+e+'</div>';});
 </script>
+<script src="../viewer.js"></script>
 </body>
 </html>

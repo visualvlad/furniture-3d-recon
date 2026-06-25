@@ -103,5 +103,6 @@ fetch('manifest.json',{cache:'no-cache'}).then(r=>r.json()).then(data=>{
  document.getElementById('nav').innerHTML=CATS.map(c=>`<a href="../${c}/">${c}</a>`).join('')+' · <a href="../">index</a>';
 }).catch(e=>{document.getElementById('cards').innerHTML='<div class="loading">manifest.json error — '+e+'</div>';});
 </script>
+<script src="../../viewer.js"></script>
 </body>
 </html>

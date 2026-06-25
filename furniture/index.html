@@ -157,5 +157,6 @@ fetch('manifest.json').then(r=>r.json()).then(data=>{
     <div class="cell"><div class="k">GPU</div><div class="v" style="font-size:22px">H100</div></div>`;
 }).catch(e=>{document.getElementById('cards').innerHTML='<div class="loading">Could not load manifest.json — '+e+'</div>';});
 </script>
+<script src="../viewer.js"></script>
 </body>
 </html>

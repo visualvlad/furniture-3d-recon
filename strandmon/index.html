@@ -155,5 +155,6 @@ fetch('manifest.json').then(r=>r.json()).then(data=>{
     <div class="cell"><div class="k">Total compute</div><div class="v">${Math.round(totT/60)}<small>min</small></div></div>`;
 }).catch(e=>{document.getElementById('cards').innerHTML='<div class="loading">Could not load manifest.json — '+e+'</div>';});
 </script>
+<script src="../viewer.js"></script>
 </body>
 </html>
